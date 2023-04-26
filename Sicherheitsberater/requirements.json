@@ -1,0 +1,422 @@
+[
+    {
+        "id": "A1-1",
+        "objectType": "Mobile Anwendungen (Apps)",
+        "requirement": "Sichere Apps nutzen",
+        "description": "Nur Apps aus den offiziellen Stores runterladen und nutzen. Wenn nicht mehr benötigt, Apps restlos löschen."
+    },
+    {
+        "id": "A1-2",
+        "objectType": "Mobile Anwendungen (Apps)",
+        "requirement": "Aktuelle App-Versionen",
+        "description": "Updates immer zeitnah installieren, um Schwachstellen zu vermeiden."
+    },
+    {
+        "id": "A1-3",
+        "objectType": "Mobile Anwendungen (Apps)",
+        "requirement": "Sichere Speicherung lokaler App-Daten",
+        "description": "Nur Apps nutzen, die Dokumente verschlüsselt und lokal abspeichern."
+    },
+    {
+        "id": "A1-4",
+        "objectType": "Mobile Anwendungen (Apps)",
+        "requirement": "Verhinderung von Datenabfluss",
+        "description": "Keine vertraulichen Daten über Apps versenden."
+    },
+    {
+        "id": "A1-5",
+        "objectType": "Office-Produkte",
+        "requirement": "Verzicht auf Cloud-Speicherung",
+        "description": "Keine Nutzung der in Office-Produkte integrierte Cloud-Speicher zur Speicherung personenbezogener Informationen."
+    },
+    {
+        "id": "A1-6",
+        "objectType": "Office-Produkte",
+        "requirement": "Beseitigung von Rest- Informationen vor Weitergabe von Dokumenten",
+        "description": "Vertrauliches aus Dokumenten löschen vor einer Weitergabe an Dritte."
+    },
+    {
+        "id": "A1-7",
+        "objectType": "Internet-Anwendungen",
+        "requirement": "Authentisierung bei Webanwendungen",
+        "description": "Nutzen Sie nur Internet-Anwendungen, die ihre Zugänge (Login-Seite und -Ablauf, Passwort, Benutzerkonto etc.) strikt absichern."
+    },
+    {
+        "id": "A1-8",
+        "objectType": "Internet-Anwendungen",
+        "requirement": "Schutz vertraulicher Daten",
+        "description": "Stellen Sie ihren Internet-Browser gem. Hersteller-Anleitung so ein, dass keine vertraulichen Daten im Browser gespeichert werden."
+    },
+    {
+        "id": "A1-9",
+        "objectType": "Internet-Anwendungen",
+        "requirement": "Firewall benutzen",
+        "description": "Verwendung und regelmäßiges Update einer Web App Firewall."
+    },
+    {
+        "id": "A1-10",
+        "objectType": "Internet-Anwendungen",
+        "requirement": "Kryptografische Sicherung vertraulicher Daten",
+        "description": "Nur verschlüsselte Internet-Anwendungen nutzen."
+    },
+    {
+        "id": "A1-11",
+        "objectType": "Internet-Anwendungen",
+        "requirement": "Schutz vor unerlaubter automatisierter Nutzung von Webanwendungen",
+        "description": "Keine automatisierten Zugriffe bzw. Aufrufe auf Webanwendungen einrichten oder zulassen."
+    },
+    {
+        "id": "A1-12",
+        "objectType": "Endgeräte",
+        "requirement": "Verhinderung der unautorisierten Nutzung von Rechner-Mikrofonen und Kameras",
+        "description": "Mikrofon und Kamera am Rechner sollten grundsätzlich deaktiviert sein und nur bei Bedarf temporär direkt am Gerät aktiviert und danach wieder deaktiviert werden."
+    },
+    {
+        "id": "A1-13",
+        "objectType": "Endgeräte",
+        "requirement": "Abmelden nach Aufgabenerfüllung",
+        "description": "Nach Ende der Nutzung immer den Zugang zum Gerät sperren oder Abmelden."
+    },
+    {
+        "id": "A1-14",
+        "objectType": "Endgeräte",
+        "requirement": "Regelmäßige Datensicherung",
+        "description": "Sichern Sie regelmäßig Ihre Daten."
+    },
+    {
+        "id": "A1-15",
+        "objectType": "Endgeräte",
+        "requirement": "Einsatz von Virenschutzprogrammen",
+        "description": "Setzen Sie aktuelle Virenschutzprogramme ein."
+    },
+    {
+        "id": "A1-16",
+        "objectType": "Endgeräte mit dem Betriebssystem Windows",
+        "requirement": "Konfiguration von Synchronisationsmechanismen",
+        "description": "Die Synchronisierung von Nutzerdaten mit Microsoft- Cloud-Diensten sollte vollständig deaktiviert werden."
+    },
+    {
+        "id": "A1-17",
+        "objectType": "Endgeräte mit dem Betriebssystem Windows",
+        "requirement": "Datei- und Freigabeberechtigungen",
+        "description": "Regeln Sie Berechtigungen und Zugriffe pro Personengruppe und pro Person."
+    },
+    {
+        "id": "A1-18",
+        "objectType": "Endgeräte mit dem Betriebssystem Windows",
+        "requirement": "Datensparsamkeit",
+        "description": "Verwenden Sie so wenige persönliche Daten wie möglich."
+    },
+    {
+        "id": "A1-19",
+        "objectType": "Smartphone und Tablet",
+        "requirement": "Schutz vor Phishing und Schadprogrammen im Browser",
+        "description": "Nutzen Sie aktuelle Schutzprogramme vor Phishing und Schadprogrammen im Browser."
+    },
+    {
+        "id": "A1-20",
+        "objectType": "Smartphone und Tablet",
+        "requirement": "Verwendung der SIM-Karten-PIN",
+        "description": "SIM-Karten durch PIN schützen. Super-PIN/PUK nur durch Verantwortliche anzuwenden."
+    },
+    {
+        "id": "A1-21",
+        "objectType": "Smartphone und Tablet",
+        "requirement": "Sichere Grundkonfiguration für mobile Geräte",
+        "description": "Auf mobilen Endgeräten sollten die strengsten bzw. sichersten Einstellungen gewählt werden, weil auch auf mobilen Geräten das erforderliche Schutzniveau für die verarbeiteten Daten sichergestellt werden muss."
+    },
+    {
+        "id": "A1-22",
+        "objectType": "Smartphone und Tablet",
+        "requirement": "Verwendung eines Zugriffschutzes",
+        "description": "Schützen Sie Ihre Geräte mit einem komplexen Gerätesperrcode."
+    },
+    {
+        "id": "A1-23",
+        "objectType": "Smartphone und Tablet",
+        "requirement": "Updates von Betriebssystem und Apps",
+        "description": "Updates des Betriebssystems und der eingesetzten Apps bei Hinweis auf neue Versionen immer zeitnah installieren, um Schwachstellen zu vermeiden. Legen Sie zusätzlich einen festen Turnus (z.B. monatlich) fest, in dem das Betriebssystem und alle genutzten Apps auf neue Versionen geprüft werden."
+    },
+    {
+        "id": "A1-24",
+        "objectType": "Smartphone und Tablet",
+        "requirement": "Datenschutz-Einstellungen",
+        "description": "Den Zugriff von Apps und Betriebssystem auf Daten und Schnittstellen Ihrer Geräte sollten Sie in den Einstellungen restriktiv auf das Notwendigste einschränken."
+    },
+    {
+        "id": "A1-25",
+        "objectType": "Mobiltelefon",
+        "requirement": "Sperrmaßnahmen bei Verlust eines Mobiltelefons",
+        "description": "Bei Verlust eines Mobiltelefons muss die darin verwendete SIM-Karte zeitnah gesperrt werden. Hinterlegen Sie die dafür notwendigen Mobilfunkanbieter- Informationen, um sie bei Bedarf im Zugriff zu haben."
+    },
+    {
+        "id": "A1-26",
+        "objectType": "Mobiltelefon",
+        "requirement": "Nutzung der Sicherheitsmechanismen von Mobiltelefonen",
+        "description": "Alle verfügbaren Sicherheitsmechanismen sollten auf den Mobiltelefonen genutzt und als Standard-Einstellung vorkonfiguriert werden."
+    },
+    {
+        "id": "A1-27",
+        "objectType": "Mobiltelefon",
+        "requirement": "Updates von Mobiltelefonen",
+        "description": "Es sollte regelmäßig geprüft werden, ob es Softwareupdates für die Mobiltelefone gibt."
+    },
+    {
+        "id": "A1-28",
+        "objectType": "Wechseldatenträger / Speichermedien",
+        "requirement": "Schutz vor Schadsoftware",
+        "description": "Wechseldatenträger müssen bei jeder Verwendung mit einem aktuellen Schutzprogramm auf Schadsoftware überprüft werden."
+    },
+    {
+        "id": "A1-29",
+        "objectType": "Wechseldatenträger / Speichermedien",
+        "requirement": "Angemessene Kennzeichnung der Datenträger beim Versand",
+        "description": "Eindeutige Kennzeichnung für Empfänger, aber keine Rückschlüsse für andere ermöglichen."
+    },
+    {
+        "id": "A1-30",
+        "objectType": "Wechseldatenträger / Speichermedien",
+        "requirement": "Sichere Versandart und Verpackung",
+        "description": "Versand-Anbieter mit sicherem Nachweis-System, manipulationssichere Versandart und Verpackung verwenden."
+    },
+    {
+        "id": "A1-31",
+        "objectType": "Wechseldatenträger / Speichermedien",
+        "requirement": "Sicheres Löschen der Datenträger vor und nach der Verwendung",
+        "description": "Datenträger nach Verwendung immer sicher und vollständig Löschen. Ihr Rechner bietet dafür verschiedene Möglichkeiten."
+    },
+    {
+        "id": "A1-32",
+        "objectType": "Netzwerksicherheit",
+        "requirement": "Absicherung der Netzübergangspunkte",
+        "description": "Der Übergang zu anderen Netzen, insbesondere dem Internet, muss durch eine Firewall geschützt werden."
+    },
+    {
+        "id": "A1-33",
+        "objectType": "Netzwerksicherheit",
+        "requirement": "Dokumentation des Netzes",
+        "description": "Das interne Netz ist inklusive eines Netzplanes zu dokumentieren."
+    },
+    {
+        "id": "A1-34",
+        "objectType": "Netzwerksicherheit",
+        "requirement": "Grundlegende Authentisierung für den Netzmanagement- Zugriff",
+        "description": "Für den Management-Zugriff auf Netzkomponenten und auf Managementinformationen muss eine geeignete Authentisierung verwendet werden."
+    },
+    {
+        "id": "A2-1",
+        "objectType": "Mobile Anwendungen (Apps)",
+        "requirement": "Minimierung und Kontrolle von App-Berechtigungen",
+        "description": "Minimierung der App- Berechtigungen."
+    },
+    {
+        "id": "A2-2",
+        "objectType": "Internet-Anwendungen",
+        "requirement": "Zugriffskontrolle bei Webanwendungen",
+        "description": "Sicherstellung von Berechtigungen."
+    },
+    {
+        "id": "A2-3",
+        "objectType": "Endgeräte",
+        "requirement": "Nutzung von TLS",
+        "description": "Benutzer sollten darauf achten, dass zur Verschlüsselung von Webseiten TLS verwendet wird."
+    },
+    {
+        "id": "A2-4",
+        "objectType": "Endgeräte",
+        "requirement": "Restriktive Rechtevergabe",
+        "description": "Restriktive Rechtevergabe."
+    },
+    {
+        "id": "A2-5",
+        "objectType": "Endgeräte mit dem Betriebssystem Windows",
+        "requirement": "Sichere zentrale Authentisierung in Windows- Netzen",
+        "description": "In reinen Windows-Netzen sollte zur zentralen Authentisierung für Single Sign On (SSO) ausschließlich Kerberos eingesetzt werden."
+    },
+    {
+        "id": "A2-6",
+        "objectType": "Smartphone und Tablet",
+        "requirement": "Richtlinie für Mitarbeiter zur Benutzung von mobilen Geräten",
+        "description": "Es sollte eine verbindliche Richtlinie für Mitarbeiter zur Benutzung von mobilen Geräten erstellt werden."
+    },
+    {
+        "id": "A2-7",
+        "objectType": "Smartphone und Tablet",
+        "requirement": "Verwendung von Sprachassistenten",
+        "description": "Sprachassistenten sollten nur eingesetzt werden, wenn sie zwingend notwendig sind."
+    },
+    {
+        "id": "A2-8",
+        "objectType": "Mobiltelefon",
+        "requirement": "Sicherheitsrichtlinien und Regelungen für die Mobiltelefon-Nutzung",
+        "description": "Werden Mobiltelefone für dienstliche Zwecke verwendet, muss eine Nutzungs- und Sicherheitsrichtlinie erstellt werden."
+    },
+    {
+        "id": "A2-9",
+        "objectType": "Mobiltelefon",
+        "requirement": "Sichere Datenübertragung über Mobiltelefone",
+        "description": "Es sollte geregelt sein, welche Daten über Mobiltelefone übertragen werden dürfen. Diese sind zu verschlüsseln."
+    },
+    {
+        "id": "A2-10",
+        "objectType": "Wechseldatenträger / Speichermedien",
+        "requirement": "Regelung zur Mitnahme von Wechseldatenträgern",
+        "description": "Es sollte klare schriftliche Regeln dazu geben, ob, wie und zu welchen Anlässen Wechseldatenträger mitgenommen werden dürfen."
+    },
+    {
+        "id": "A2-11",
+        "objectType": "Netzwerksicherheit",
+        "requirement": "Umfassende Protokollierung, Alarmierung und Logging von Ereignissen",
+        "description": "Wichtige Ereignisse auf Netzkomponenten und auf den Netzmanagement- Werkzeugen sollten automatisch an ein zentrales Management-System übermittelt und dort protokolliert werden."
+    },
+    {
+        "id": "A3-1",
+        "objectType": "Smartphone und Tablet",
+        "requirement": "Festlegung einer Richtlinie für den Einsatz von Smartphones und Tablets",
+        "description": "Bevor eine Praxis Smartphones oder Tablets bereitstellt, betreibt oder einsetzt, muss eine generelle Richtlinie im Hinblick auf die Nutzung und Kontrolle der Geräte festgelegt werden."
+    },
+    {
+        "id": "A3-2",
+        "objectType": "Smartphone und Tablet",
+        "requirement": "Auswahl und Freigabe von Apps",
+        "description": "Apps aus öffentlichen App- Stores sollten durch die Verantwortlichen geprüft und freigegeben werden."
+    },
+    {
+        "id": "A3-3",
+        "objectType": "Smartphone und Tablet",
+        "requirement": "Definition der erlaubten Informationen und Applikationen auf mobilen Geräten",
+        "description": "Die Praxis sollte festlegen, welche Informationen auf den mobilen Endgeräten verarbeitet werden dürfen."
+    },
+    {
+        "id": "A3-4",
+        "objectType": "Mobile Device Management (MDM)",
+        "requirement": "Sichere Anbindung der mobilen Endgeräte an die Institution",
+        "description": "Die Verbindung der mobilen Endgeräte zum MDM sollte angemessen abgesichert werden."
+    },
+    {
+        "id": "A3-5",
+        "objectType": "Mobile Device Management (MDM)",
+        "requirement": "Berechtigungsmanagement im MDM",
+        "description": "Für das MDM sollte ein Berechtigungskonzept erstellt, dokumentiert und angewendet werden."
+    },
+    {
+        "id": "A3-6",
+        "objectType": "Mobile Device Management (MDM)",
+        "requirement": "Verwaltung von Zertifikaten",
+        "description": "Zertifikate zur Nutzung von Diensten auf dem mobilen Endgerät sollten zentral über das MDM installiert, deinstalliert und aktualisiert werden."
+    },
+    {
+        "id": "A3-7",
+        "objectType": "Mobile Device Management (MDM)",
+        "requirement": "Fernlöschung und Außerbetriebnahme von Endgeräten",
+        "description": "Das MDM sollte sicherstellen, dass sämtliche Daten auf dem mobilen Endgerät aus der Ferne gelöscht werden können."
+    },
+    {
+        "id": "A3-8",
+        "objectType": "Mobile Device Management (MDM)",
+        "requirement": "Auswahl und Freigabe von Apps",
+        "description": "Apps aus öffentlichen App- Stores sollten durch die Verantwortlichen geprüft und freigegeben werden."
+    },
+    {
+        "id": "A3-9",
+        "objectType": "Mobile Device Management (MDM)",
+        "requirement": "Festlegung erlaubter Informationen auf mobilen Endgeräten",
+        "description": "Die Praxis sollte festlegen, welche Informationen die mobilen Endgeräte unter welchen Bedingungen verarbeiten dürfen."
+    },
+    {
+        "id": "A3-10",
+        "objectType": "Wechseldatenträger / Speichermedien",
+        "requirement": "Datenträgerverschlüsselung",
+        "description": "Wechseldatenträger sollten vollständig verschlüsselt werden."
+    },
+    {
+        "id": "A3-11",
+        "objectType": "Wechseldatenträger / Speichermedien",
+        "requirement": "Integritätsschutz durch Checksummen oder digitale Signaturen",
+        "description": "Ein Verfahren zum Schutz gegen zufällige oder vorsätzliche Veränderungen sollte eingesetzt werden."
+    },
+    {
+        "id": "A3-12",
+        "objectType": "Netzwerksicherheit",
+        "requirement": "Absicherung von schützenswerten Informationen",
+        "description": "Schützenswerte Informationen müssen über nach dem derzeitigen Stand der Technik sichere Protokolle übertragen werden, falls nicht über vertrauenswürdige dedizierte Netzsegmente kommuniziert wird."
+    },
+    {
+        "id": "A4-1",
+        "objectType": "Medizinische Großgeräte",
+        "requirement": "Einschränkung des Zugriffs für Konfigurations- und Wartungsschnittstellen",
+        "description": "Es muss sichergestellt werden, dass nur zuvor festgelegte berechtigte Mitarbeiter auf Konfigurations- und Wartungsschnittstellen von medizinischen Großgeräten zugreifen können. Standardmäßig eingerichtete bzw. herstellerseitig gesetzte Passwörter müssen gewechselt werden. Der Wechsel muss dokumentiert und das Passwort sicher hinterlegt werden. Standardmäßig eingerichtete bzw. herstellerseitig gesetzte Benutzerkonten sollten gewechselt werden."
+    },
+    {
+        "id": "A4-2",
+        "objectType": "Medizinische Großgeräte",
+        "requirement": "Nutzung sicherer Protokolle für die Konfiguration und Wartung",
+        "description": "Für die Konfiguration und Wartung von medizinischen Großgeräten müssen sichere Protokolle genutzt werden. Die Daten müssen beim Transport vor unberechtigtem Mitlesen und Veränderungen geschützt werden."
+    },
+    {
+        "id": "A4-3",
+        "objectType": "Medizinische Großgeräte",
+        "requirement": "Protokollierung",
+        "description": "Es muss festgelegt werden: • welche Daten und Ereignisse protokolliert werden sollen, • wie lange die Protokolldaten aufbewahrt werden und • wer diese einsehen darf. Generell müssen alle sicherheitsrelevanten Systemereignisse protokolliert und bei Bedarf ausgewertet werden."
+    },
+    {
+        "id": "A4-4",
+        "objectType": "Medizinische Großgeräte",
+        "requirement": "Deaktivierung nicht genutzter Dienste, Funktionen und Schnittstellen",
+        "description": "Alle nicht genutzten Dienste, Funktionen und Schnittstellen der medizinischen Großgeräte müssen soweit möglich deaktiviert oder deinstalliert werden."
+    },
+    {
+        "id": "A4-5",
+        "objectType": "Medizinische Großgeräte",
+        "requirement": "Deaktivierung nicht genutzter Benutzerkonten",
+        "description": "Nicht genutzte und unnötige Benutzerkonten müssen deaktiviert werden."
+    },
+    {
+        "id": "A4-6",
+        "objectType": "Medizinische Großgeräte",
+        "requirement": "Netzsegmentierung",
+        "description": "Medizinische Großgeräte sollten von der weiteren IT getrennt werden."
+    },
+    {
+        "id": "A5-1",
+        "objectType": "Telematikinfrastruktur",
+        "requirement": "Planung und Durchführung der Installation",
+        "description": "Die von der gematik GmbH auf Ihrer Website zur Verfügung gestellten Informationen für die Installation der TI-Komponenten müssen berücksichtigt werden."
+    },
+    {
+        "id": "A5-2",
+        "objectType": "Telematikinfrastruktur",
+        "requirement": "Betrieb",
+        "description": "Die Anwender- und Administrationsdokumentationen der gematik GmbH und der Hersteller der TI-Komponenten, insbesondere die Hinweise zum sicheren Betrieb der Komponenten, müssen berücksichtigt werden."
+    },
+    {
+        "id": "A5-3",
+        "objectType": "Telematikinfrastruktur",
+        "requirement": "Schutz vor unberechtigtem physischem Zugriff",
+        "description": "Die TI-Komponenten in der Praxis müssen entsprechend den Vorgaben im jeweiligen Handbuch vor dem Zugriff Unberechtigter geschützt werden."
+    },
+    {
+        "id": "A5-4",
+        "objectType": "Telematikinfrastruktur",
+        "requirement": "Betriebsart „parallel“",
+        "description": "Wird der Konnektor in der Konfiguration „parallel“ ins Netzwerk des Leistungserbringers eingebracht, müssen zusätzliche Maßnahmen ergriffen werden, um die mit dem Internet verbundene Praxis auf Netzebene zu schützen."
+    },
+    {
+        "id": "A5-5",
+        "objectType": "Telematikinfrastruktur",
+        "requirement": "Geschützte Kommunikation mit dem Konnektor",
+        "description": "Es müssen Authentisierungsmerkmale für die Clients (Zertifikate oder Username und Passwort) erstellt und in die Clients eingebracht bzw. die Clients entsprechend konfiguriert werden."
+    },
+    {
+        "id": "A5-6",
+        "objectType": "Telematikinfrastruktur",
+        "requirement": "Zeitnahes Installieren verfügbarer Aktualisierungen",
+        "description": "Die TI-Komponenten in der Praxis müssen regelmäßig auf verfügbare Aktualisierungen geprüft werden und verfügbare Aktualisierungen müssen zeitnah installiert werden. Bei Verfügbarkeit einer Funktion für automatische Updates sollte diese aktiviert werden."
+    },
+    {
+        "id": "A5-7",
+        "objectType": "Telematikinfrastruktur",
+        "requirement": "Sicheres Aufbewahren von Administrationsdaten",
+        "description": "Die im Zuge der Installation der TI-Komponenten eingerichteten Administrationsdaten, insbesondere auch Passwörter für den Administrator-Zugang, müssen sicher aufbewahrt werden. Jedoch muss gewährleistet sein, dass der Leistungserbringer auch ohne seinen Dienstleister die Daten kennt."
+    }
+]

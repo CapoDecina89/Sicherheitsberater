@@ -9,9 +9,15 @@ import SwiftUI
 
 @main
 struct SicherheitsberaterApp: App {
+    
+    @StateObject var requirementData: RequirementData = RequirementData()
+    @StateObject var profileViewModel: ProfileViewModel = ProfileViewModel()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(requirementData)
+                .environmentObject(profileViewModel)
         }
     }
 }
