@@ -10,14 +10,16 @@ import SwiftUI
 @main
 struct SicherheitsberaterApp: App {
     
-    @StateObject var requirementData: RequirementData = RequirementData()
     @StateObject var profileViewModel: ProfileViewModel = ProfileViewModel()
+    @StateObject var dataController = DataController()
+
     
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .environmentObject(requirementData)
                 .environmentObject(profileViewModel)
+                .environmentObject(dataController)
+                .environment(\.managedObjectContext, dataController.container.viewContext)
         }
     }
 }

@@ -9,8 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @StateObject var requirementData = RequirementData()
-    @StateObject var profilViewModel = ProfileViewModel()
+    @EnvironmentObject var dataController: DataController
     
     var body: some View {
         TabView {
@@ -31,13 +30,13 @@ struct ContentView: View {
                     Label("Profil", systemImage: "person.circle")
                 }
         }
-        .environmentObject(requirementData)
-        .environmentObject(profilViewModel)
+        .environmentObject(dataController)
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .environmentObject(DataController())
     }
 }

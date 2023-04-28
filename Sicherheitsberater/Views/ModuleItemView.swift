@@ -8,14 +8,20 @@
 import SwiftUI
 
 struct ModuleItemView: View {
+    @EnvironmentObject var dataController: DataController
     @State private var showingInfo = false
-    var requirement: RequirementItem
+    var requirement: RequirementEntity
     
     var body: some View {
         HStack{
-            Image(systemName: /*requirement.isCompleted ? */ "checkmark.circle.fill"/*: "circle"*/)
-                .foregroundColor(.blue)
-            Text(requirement.requirement)
+            Button {
+                requirement.isFulfilled.toggle()
+                dataController.saveData()
+            }label: {
+                Image(systemName: "checkmark.circle.fill")
+                    .foregroundColor(.blue)
+            }
+            Text(requirement.name ?? "")
             Spacer()
             Button {
                 showingInfo.toggle()
@@ -25,7 +31,7 @@ struct ModuleItemView: View {
             .buttonStyle(.plain)
             .sheet(isPresented: $showingInfo) {
                 HStack{
-                    Text(requirement.requirement)
+                    Text(requirement.name ?? "")
                         .font(.title2)
                         .fontWeight(.bold)
                         .padding()
@@ -38,7 +44,7 @@ struct ModuleItemView: View {
                     }
                     .padding()
                 }
-                Text(requirement.explanation)
+                Text(requirement.explanation ?? "")
                     .padding()
                 Spacer()
                 .presentationDetents([.medium])
@@ -48,8 +54,8 @@ struct ModuleItemView: View {
 }
 
 struct ModuleItemView_Previews: PreviewProvider {
-    static var requirements: [RequirementItem] = Bundle.main.decode([RequirementItem].self, from: "requirements.json")
     static var previews: some View {
-        ModuleItemView(requirement: requirements[1])
+        ModuleItemView(requirement: DataController().savedEntities[1])
+            .environmentObject(DataController())
     }
 }
