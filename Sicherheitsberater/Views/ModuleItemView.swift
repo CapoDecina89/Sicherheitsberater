@@ -38,7 +38,7 @@ struct ModuleItemView: View {
                     }
                     .padding()
                 }
-                Text(requirement.description)
+                Text(requirement.explanation)
                     .padding()
                 Spacer()
                 .presentationDetents([.medium])

@@ -11,7 +11,7 @@ struct RequirementItem: Codable, Hashable, Identifiable {
     var id: String
     var objectType: String
     var requirement: String
-    var description: String
+    var explanation: String
     var isFulfilled: Bool? = false
     var changingDate: Date?
     //var isRelevant: Bool? = true

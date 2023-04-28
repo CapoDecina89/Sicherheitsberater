@@ -17,37 +17,34 @@ class RequirementData: ObservableObject {
     
     //Change RequirementItem.isRelevant depending on selected Profile Options
     func filterRelevantRequirements(profile: Profile) -> [RequirementItem] {
-        var relevantRequirements: [RequirementItem] = requirements.filter {($0.id.hasPrefix("A1") || $0.id.hasPrefix("A5")) && !$0.objectType.contains("Mobiltelefon") && !$0.objectType.contains("Tablet") }
+        //ggf. erst nach Geräten, dann nach profile.size filtern
+        var relevantRequirements: [RequirementItem] = requirements.filter { !$0.objectType.contains("Mobil") && !$0.objectType.contains("Tablet") && !$0.objectType.contains("MDM") && !$0.id.hasPrefix("A4") }
         
-        switch profile.size {
-        case .medium:
-            relevantRequirements.append(contentsOf: requirements.filter { $0.id.hasPrefix("A2") })
-        case .large:
-            relevantRequirements.append(contentsOf: requirements.filter { $0.id.hasPrefix("A2") || $0.id.hasPrefix("A3") })
-        default:
-            break
-        }
         
         if (profile.hasBigMedTech == true) {
             relevantRequirements.append(contentsOf: requirements.filter { $0.id.hasPrefix("A4") })
         } else {}
         
-        if (profile.hasMobile == true) {
-            relevantRequirements.append(contentsOf: requirements.filter { $0.objectType.contains("Mobiltelefon") })
-        } else {}
-        
-        if (profile.hasTablet == true) {
-            relevantRequirements.append(contentsOf: requirements.filter { $0.objectType.contains("Tablet") })
-        } else {}
-        
-        if (profile.hasParallelMode == true) {
-            //relevantRequirements.append(contentsOf: requirements.filter { $0.objectType.contains("Mobiltelefon") })
+        if (profile.hasMobileDevice == true) {
+            relevantRequirements.append(contentsOf: requirements.filter { $0.objectType.contains("Mobil") || $0.objectType.contains("Tablet") || $0.objectType.contains("MDM")})
         } else {}
         
         if (profile.hasWebServices == true) {
             //relevantRequirements.append(contentsOf: requirements.filter { $0.objectType.contains("Mobiltelefon") })
         } else {}
         
+        switch profile.size {
+        case.small:
+            relevantRequirements = relevantRequirements.filter {
+                !$0.id.hasPrefix("A2") || !$0.id.hasPrefix("A3")
+            }
+        case .medium:
+            relevantRequirements = relevantRequirements.filter {
+                !$0.id.hasPrefix("A3")
+            }
+        default:
+            break
+        }
         return relevantRequirements.sorted { $0.id < $1.id
         }
     }

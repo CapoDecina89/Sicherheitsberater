@@ -19,9 +19,10 @@ struct ProfileView: View {
             VStack {
                 Form {
                     Section{
-                        TextField("Name der Praxis", text: $profileViewModel.businessProfile.name)
+                        TextField("IT-Verantwortlicher/-Dienstleister", text: $profileViewModel.businessProfile.emergencyContact.name)
+                        TextField("Notfallnummer", text: $profileViewModel.businessProfile.emergencyContact.mobileNr)
                     }header: {
-                        Text("Praxisdaten")
+                        Text("IT-Notfallkontakt")
                     }
                     
                     Section{
@@ -99,9 +100,11 @@ private extension ProfileView {
         Section{
             
             Toggle("Medizinische Großgeräte vorhanden (MTR, CT, ...)", isOn: $profileViewModel.businessProfile.hasBigMedTech)
-            Toggle("Mobiltelefone vorhanden", isOn: $profileViewModel.businessProfile.hasMobile)
-            Toggle("Tablets vorhanden", isOn: $profileViewModel.businessProfile.hasTablet)
-            Toggle(isOn: $profileViewModel.businessProfile.hasParallelMode) {
+            //ggf. Mobiltelefone, Smartphone und Tablet zusammenfassen, da Trennung nicht zeitgemäß
+            Toggle("Mobilgeräte (Smartphone/Tablet) vorhanden", isOn: $profileViewModel.businessProfile.hasMobileDevice)
+            //Toggle("Tablets vorhanden", isOn: $profileViewModel.businessProfile.hasTablet)
+            //ggf. entfernen und stattdessen die Anforderung entweder Reihenbetrieb oder Firewall in Katalog aufnehmen
+            /*Toggle(isOn: $profileViewModel.businessProfile.hasParallelMode) {
                 HStack{
                     Text("Konnektor im Parallelbetrieb")
                     Spacer()
@@ -111,9 +114,7 @@ private extension ProfileView {
                         Image(systemName: "info.circle")
                         }
                 }
-                
-                
-            }
+            }*/
             Toggle(isOn: $profileViewModel.businessProfile.hasWebServices) {
                 HStack{
                     Text("Webservices vorhanden")
@@ -129,7 +130,7 @@ private extension ProfileView {
         } header: {
             Text("vorhandene Geräte")
         }footer: {
-            Text("Durch Ihre Auswahl werden Ihnen Anforderungen nur angezeigt, wenn Sie die entsprechenden Geräte auch verwenden.")
+            Text("Durch Ihre Auswahl werden Ihnen Anforderungen nur angezeigt, wenn Sie die entsprechenden Geräte oder Dienste auch verwenden.")
         }
     }
 }

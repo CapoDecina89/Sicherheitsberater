@@ -11,6 +11,9 @@
 		4357009B29F82E66008D2D82 /* RequirementItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4357009A29F82E66008D2D82 /* RequirementItem.swift */; };
 		435700A029F82F83008D2D82 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4357009F29F82F83008D2D82 /* ProfileViewModel.swift */; };
 		435700A229F8301B008D2D82 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435700A129F8301B008D2D82 /* Profile.swift */; };
+		435700A429FACFDD008D2D82 /* EmergencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435700A329FACFDD008D2D82 /* EmergencyView.swift */; };
+		435700A829FBBB50008D2D82 /* FilteredList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435700A729FBBB50008D2D82 /* FilteredList.swift */; };
+		435700AE29FBC282008D2D82 /* Requirements.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 435700AC29FBC282008D2D82 /* Requirements.xcdatamodeld */; };
 		437A48E729E5944A004D7ED4 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437A48E629E5944A004D7ED4 /* DashboardView.swift */; };
 		4397E63B29E19EB0008AADA3 /* SicherheitsberaterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4397E63A29E19EB0008AADA3 /* SicherheitsberaterApp.swift */; };
 		4397E63D29E19EB0008AADA3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4397E63C29E19EB0008AADA3 /* ContentView.swift */; };
@@ -29,6 +32,9 @@
 		4357009A29F82E66008D2D82 /* RequirementItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequirementItem.swift; sourceTree = "<group>"; };
 		4357009F29F82F83008D2D82 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 		435700A129F8301B008D2D82 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		435700A329FACFDD008D2D82 /* EmergencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyView.swift; sourceTree = "<group>"; };
+		435700A729FBBB50008D2D82 /* FilteredList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteredList.swift; sourceTree = "<group>"; };
+		435700AD29FBC282008D2D82 /* Requirements.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Requirements.xcdatamodel; sourceTree = "<group>"; };
 		437A48E629E5944A004D7ED4 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		4397E63729E19EB0008AADA3 /* Sicherheitsberater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sicherheitsberater.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4397E63A29E19EB0008AADA3 /* SicherheitsberaterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SicherheitsberaterApp.swift; sourceTree = "<group>"; };
@@ -58,7 +64,6 @@
 			isa = PBXGroup;
 			children = (
 				435700A129F8301B008D2D82 /* Profile.swift */,
-				4357009829F67D83008D2D82 /* RequirementData.swift */,
 				4357009A29F82E66008D2D82 /* RequirementItem.swift */,
 			);
 			path = Model;
@@ -68,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				4357009F29F82F83008D2D82 /* ProfileViewModel.swift */,
+				4357009829F67D83008D2D82 /* RequirementData.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -77,7 +83,9 @@
 			children = (
 				4397E63C29E19EB0008AADA3 /* ContentView.swift */,
 				437A48E629E5944A004D7ED4 /* DashboardView.swift */,
+				435700A729FBBB50008D2D82 /* FilteredList.swift */,
 				43D2A5AD29F32E6000329073 /* ModuleItemView.swift */,
+				435700A329FACFDD008D2D82 /* EmergencyView.swift */,
 				43D2A5AB29F2E89A00329073 /* DetailView.swift */,
 				43D2A5A729F2CEC800329073 /* DocumentationView.swift */,
 				43D2A5A929F2CF0D00329073 /* ProfileView.swift */,
@@ -112,6 +120,7 @@
 				437A48ED29E596DF004D7ED4 /* Views */,
 				4397E63E29E19EB1008AADA3 /* Assets.xcassets */,
 				4397E64029E19EB1008AADA3 /* Preview Content */,
+				435700AC29FBC282008D2D82 /* Requirements.xcdatamodeld */,
 			);
 			path = Sicherheitsberater;
 			sourceTree = "<group>";
@@ -201,10 +210,13 @@
 				435700A229F8301B008D2D82 /* Profile.swift in Sources */,
 				43D2A5AC29F2E89A00329073 /* DetailView.swift in Sources */,
 				4397E63D29E19EB0008AADA3 /* ContentView.swift in Sources */,
+				435700A829FBBB50008D2D82 /* FilteredList.swift in Sources */,
 				437A48E729E5944A004D7ED4 /* DashboardView.swift in Sources */,
+				435700A429FACFDD008D2D82 /* EmergencyView.swift in Sources */,
 				435700A029F82F83008D2D82 /* ProfileViewModel.swift in Sources */,
 				43D2A5AE29F32E6000329073 /* ModuleItemView.swift in Sources */,
 				4357009929F67D83008D2D82 /* RequirementData.swift in Sources */,
+				435700AE29FBC282008D2D82 /* Requirements.xcdatamodeld in Sources */,
 				4397E63B29E19EB0008AADA3 /* SicherheitsberaterApp.swift in Sources */,
 				43D2A5A829F2CEC800329073 /* DocumentationView.swift in Sources */,
 			);
@@ -407,6 +419,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		435700AC29FBC282008D2D82 /* Requirements.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				435700AD29FBC282008D2D82 /* Requirements.xcdatamodel */,
+			);
+			currentVersion = 435700AD29FBC282008D2D82 /* Requirements.xcdatamodel */;
+			path = Requirements.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 4397E62F29E19EB0008AADA3 /* Project object */;
 }

@@ -8,15 +8,18 @@
 import Foundation
 
 struct Profile: Codable {
-    var name: String = ""
+    var emergencyContact: EmergencyContact = EmergencyContact()
     var size: SizeCategory = .small
     var hasBigMedTech: Bool = false
-    var hasMobile: Bool = false
-    var hasTablet: Bool = false
-    var hasParallelMode = false
+    var hasMobileDevice: Bool = false
     var hasWebServices: Bool = false
 }
 
 enum SizeCategory: Codable {
 case small, medium, large
+}
+
+struct EmergencyContact: Codable {
+    var name: String = ""
+    var mobileNr: String = ""
 }
