@@ -15,7 +15,7 @@ struct Profile: Codable {
     var hasWebServices: Bool = false
 }
 
-enum SizeCategory: Codable {
+enum SizeCategory: String, Codable {
 case small, medium, large
 }
 

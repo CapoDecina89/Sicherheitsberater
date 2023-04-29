@@ -3,420 +3,490 @@
         "id": "A1-1",
         "objectType": "Mobile Anwendungen (Apps)",
         "name": "Sichere Apps nutzen",
-        "explanation": "Nur Apps aus den offiziellen Stores runterladen und nutzen. Wenn nicht mehr benötigt, Apps restlos löschen."
+        "explanation": "Nur Apps aus den offiziellen Stores runterladen und nutzen. Wenn nicht mehr benötigt, Apps restlos löschen.",
+        "sizeCategory": "all"
     },
     {
         "id": "A1-2",
         "objectType": "Mobile Anwendungen (Apps)",
         "name": "Aktuelle App-Versionen",
-        "explanation": "Updates immer zeitnah installieren, um Schwachstellen zu vermeiden."
+        "explanation": "Updates immer zeitnah installieren, um Schwachstellen zu vermeiden.",
+        "sizeCategory": "all"
     },
     {
         "id": "A1-3",
         "objectType": "Mobile Anwendungen (Apps)",
         "name": "Sichere Speicherung lokaler App-Daten",
-        "explanation": "Nur Apps nutzen, die Dokumente verschlüsselt und lokal abspeichern."
+        "explanation": "Nur Apps nutzen, die Dokumente verschlüsselt und lokal abspeichern.",
+        "sizeCategory": "all"
     },
     {
         "id": "A1-4",
         "objectType": "Mobile Anwendungen (Apps)",
         "name": "Verhinderung von Datenabfluss",
-        "explanation": "Keine vertraulichen Daten über Apps versenden."
+        "explanation": "Keine vertraulichen Daten über Apps versenden.",
+        "sizeCategory": "all"
     },
     {
         "id": "A1-5",
         "objectType": "Office-Produkte",
-        "name": "Verzicht auf Cloud- Speicherung",
-        "explanation": "Keine Nutzung der in Office- Produkte integrierte Cloud- Speicher zur Speicherung personenbezogener Informationen."
+        "name": "Verzicht auf Cloud-Speicherung",
+        "explanation": "Keine Nutzung der in Office-Produkte integrierte Cloud-Speicher zur Speicherung personenbezogener Informationen.",
+        "sizeCategory": "all"
     },
     {
         "id": "A1-6",
         "objectType": "Office-Produkte",
-        "name": "Beseitigung von Rest- Informationen vor Weitergabe von Dokumenten",
-        "explanation": "Vertrauliches aus Dokumenten löschen vor einer Weitergabe an Dritte."
+        "name": "Beseitigung von Rest-Informationen vor Weitergabe von Dokumenten",
+        "explanation": "Vertrauliches aus Dokumenten löschen vor einer Weitergabe an Dritte.",
+        "sizeCategory": "all"
     },
     {
         "id": "A1-7",
         "objectType": "Internet-Anwendungen",
         "name": "Authentisierung bei Webanwendungen",
-        "explanation": "Nutzen Sie nur Internet- Anwendungen, die ihre Zugänge (Login-Seite und - Ablauf, Passwort, Benutzerkonto etc.) strikt absichern."
+        "explanation": "Nutzen Sie nur Internet-Anwendungen, die ihre Zugänge (Login-Seite und -Ablauf, Passwort, Benutzerkonto etc.) strikt absichern.",
+        "sizeCategory": "all"
     },
     {
         "id": "A1-8",
         "objectType": "Internet-Anwendungen",
         "name": "Schutz vertraulicher Daten",
-        "explanation": "Stellen Sie ihren Internet- Browser gem. Hersteller- Anleitung so ein, dass keine vertraulichen Daten im Browser gespeichert werden."
+        "explanation": "Stellen Sie ihren Internet-Browser gem. Hersteller-Anleitung so ein, dass keine vertraulichen Daten im Browser gespeichert werden.",
+        "sizeCategory": "all"
     },
     {
         "id": "A1-9",
         "objectType": "Internet-Anwendungen",
         "name": "Firewall benutzen",
-        "explanation": "Verwendung und regelmäßiges Update einer Web App Firewall."
+        "explanation": "Verwendung und regelmäßiges Update einer Web App Firewall.",
+        "sizeCategory": "all"
     },
     {
         "id": "A1-10",
         "objectType": "Internet-Anwendungen",
         "name": "Kryptografische Sicherung vertraulicher Daten",
-        "explanation": "Nur verschlüsselte Internet- Anwendungen nutzen."
+        "explanation": "Nur verschlüsselte Internet-Anwendungen nutzen.",
+        "sizeCategory": "all"
     },
     {
         "id": "A1-11",
         "objectType": "Internet-Anwendungen",
         "name": "Schutz vor unerlaubter automatisierter Nutzung von Webanwendungen",
-        "explanation": "Keine automatisierten Zugriffe bzw. Aufrufe auf Webanwendungen einrichten oder zulassen."
+        "explanation": "Keine automatisierten Zugriffe bzw. Aufrufe auf Webanwendungen einrichten oder zulassen.",
+        "sizeCategory": "all"
     },
     {
         "id": "A1-12",
         "objectType": "Endgeräte",
         "name": "Verhinderung der unautorisierten Nutzung von Rechner-Mikrofonen und Kameras",
-        "explanation": "Mikrofon und Kamera am Rechner sollten grundsätzlich deaktiviert sein und nur bei Bedarf temporär direkt am Gerät aktiviert und danach wieder deaktiviert werden."
+        "explanation": "Mikrofon und Kamera am Rechner sollten grundsätzlich deaktiviert sein und nur bei Bedarf temporär direkt am Gerät aktiviert und danach wieder deaktiviert werden.",
+        "sizeCategory": "all"
     },
     {
         "id": "A1-13",
         "objectType": "Endgeräte",
         "name": "Abmelden nach Aufgabenerfüllung",
-        "explanation": "Nach Ende der Nutzung immer den Zugang zum Gerät sperren oder Abmelden."
+        "explanation": "Nach Ende der Nutzung immer den Zugang zum Gerät sperren oder Abmelden.",
+        "sizeCategory": "all"
     },
     {
         "id": "A1-14",
         "objectType": "Endgeräte",
         "name": "Regelmäßige Datensicherung",
-        "explanation": "Sichern Sie regelmäßig Ihre Daten."
+        "explanation": "Sichern Sie regelmäßig Ihre Daten.",
+        "sizeCategory": "all"
     },
     {
         "id": "A1-15",
         "objectType": "Endgeräte",
         "name": "Einsatz von Virenschutzprogrammen",
-        "explanation": "Setzen Sie aktuelle Virenschutzprogramme ein."
+        "explanation": "Setzen Sie aktuelle Virenschutzprogramme ein.",
+        "sizeCategory": "all"
     },
     {
         "id": "A1-16",
         "objectType": "Endgeräte mit dem Betriebssystem Windows",
         "name": "Konfiguration von Synchronisationsmechanismen",
-        "explanation": "Die Synchronisierung von Nutzerdaten mit Microsoft- Cloud-Diensten sollte vollständig deaktiviert werden."
+        "explanation": "Die Synchronisierung von Nutzerdaten mit Microsoft-Cloud-Diensten sollte vollständig deaktiviert werden.",
+        "sizeCategory": "all"
     },
     {
         "id": "A1-17",
         "objectType": "Endgeräte mit dem Betriebssystem Windows",
         "name": "Datei- und Freigabeberechtigungen",
-        "explanation": "Regeln Sie Berechtigungen und Zugriffe pro Personengruppe und pro Person."
+        "explanation": "Regeln Sie Berechtigungen und Zugriffe pro Personengruppe und pro Person.",
+        "sizeCategory": "all"
     },
     {
         "id": "A1-18",
         "objectType": "Endgeräte mit dem Betriebssystem Windows",
         "name": "Datensparsamkeit",
-        "explanation": "Verwenden Sie so wenige persönliche Daten wie möglich."
+        "explanation": "Verwenden Sie so wenige persönliche Daten wie möglich.",
+        "sizeCategory": "all"
     },
     {
         "id": "A1-19",
         "objectType": "Smartphone und Tablet",
         "name": "Schutz vor Phishing und Schadprogrammen im Browser",
-        "explanation": "Nutzen Sie aktuelle Schutzprogramme vor Phishing und Schadprogrammen im Browser."
+        "explanation": "Nutzen Sie aktuelle Schutzprogramme vor Phishing und Schadprogrammen im Browser.",
+        "sizeCategory": "all"
     },
     {
         "id": "A1-20",
         "objectType": "Smartphone und Tablet",
-        "name": "Verwendung der SIM-Karten- PIN",
-        "explanation": "SIM-Karten durch PIN schützen. Super-PIN/PUK nur durch Verantwortliche anzuwenden."
+        "name": "Verwendung der SIM-Karten-PIN",
+        "explanation": "SIM-Karten durch PIN schützen. Super-PIN/PUK nur durch Verantwortliche anzuwenden.",
+        "sizeCategory": "all"
     },
     {
         "id": "A1-21",
         "objectType": "Smartphone und Tablet",
         "name": "Sichere Grundkonfiguration für mobile Geräte",
-        "explanation": "Auf mobilen Endgeräten sollten die strengsten bzw. sichersten Einstellungen gewählt werden, weil auch auf mobilen Geräten das erforderliche Schutzniveau für die verarbeiteten Daten sichergestellt werden muss."
+        "explanation": "Auf mobilen Endgeräten sollten die strengsten bzw. sichersten Einstellungen gewählt werden, weil auch auf mobilen Geräten das erforderliche Schutzniveau für die verarbeiteten Daten sichergestellt werden muss.",
+        "sizeCategory": "all"
     },
     {
         "id": "A1-22",
         "objectType": "Smartphone und Tablet",
         "name": "Verwendung eines Zugriffschutzes",
-        "explanation": "Schützen Sie Ihre Geräte mit einem komplexen Gerätesperrcode."
+        "explanation": "Schützen Sie Ihre Geräte mit einem komplexen Gerätesperrcode.",
+        "sizeCategory": "all"
     },
     {
         "id": "A1-23",
         "objectType": "Smartphone und Tablet",
         "name": "Updates von Betriebssystem und Apps",
-        "explanation": "Updates des Betriebssystems und der eingesetzten Apps bei Hinweis auf neue Versionen immer zeitnah installieren, um Schwachstellen zu vermeiden. Legen Sie zusätzlich einen festen Turnus (z.B. monatlich) fest, in dem das Betriebssystem und alle genutzten Apps auf neue Versionen geprüft werden."
+        "explanation": "Updates des Betriebssystems und der eingesetzten Apps bei Hinweis auf neue Versionen immer zeitnah installieren, um Schwachstellen zu vermeiden. Legen Sie zusätzlich einen festen Turnus (z.B. monatlich) fest, in dem das Betriebssystem und alle genutzten Apps auf neue Versionen geprüft werden.",
+        "sizeCategory": "all"
     },
     {
         "id": "A1-24",
         "objectType": "Smartphone und Tablet",
         "name": "Datenschutz-Einstellungen",
-        "explanation": "Den Zugriff von Apps und Betriebssystem auf Daten und Schnittstellen Ihrer Geräte sollten Sie in den Einstellungen restriktiv auf das Notwendigste einschränken."
+        "explanation": "Den Zugriff von Apps und Betriebssystem auf Daten und Schnittstellen Ihrer Geräte sollten Sie in den Einstellungen restriktiv auf das Notwendigste einschränken.",
+        "sizeCategory": "all"
     },
     {
         "id": "A1-25",
         "objectType": "Mobiltelefon",
         "name": "Sperrmaßnahmen bei Verlust eines Mobiltelefons",
-        "explanation": "Bei Verlust eines Mobiltelefons muss die darin verwendete SIM-Karte zeitnah gesperrt werden. Hinterlegen Sie die dafür notwendigen Mobilfunkanbieter- Informationen, um sie bei Bedarf im Zugriff zu haben."
+        "explanation": "Bei Verlust eines Mobiltelefons muss die darin verwendete SIM-Karte zeitnah gesperrt werden. Hinterlegen Sie die dafür notwendigen Mobilfunkanbieter-Informationen, um sie bei Bedarf im Zugriff zu haben.",
+        "sizeCategory": "all"
     },
     {
         "id": "A1-26",
         "objectType": "Mobiltelefon",
         "name": "Nutzung der Sicherheitsmechanismen von Mobiltelefonen",
-        "explanation": "Alle verfügbaren Sicherheitsmechanismen sollten auf den Mobiltelefonen genutzt und als Standard-Einstellung vorkonfiguriert werden."
+        "explanation": "Alle verfügbaren Sicherheitsmechanismen sollten auf den Mobiltelefonen genutzt und als Standard-Einstellung vorkonfiguriert werden.",
+        "sizeCategory": "all"
     },
     {
         "id": "A1-27",
         "objectType": "Mobiltelefon",
         "name": "Updates von Mobiltelefonen",
-        "explanation": "Es sollte regelmäßig geprüft werden, ob es Softwareupdates für die Mobiltelefone gibt."
+        "explanation": "Es sollte regelmäßig geprüft werden, ob es Softwareupdates für die Mobiltelefone gibt.",
+        "sizeCategory": "all"
     },
     {
         "id": "A1-28",
         "objectType": "Wechseldatenträger / Speichermedien",
         "name": "Schutz vor Schadsoftware",
-        "explanation": "Wechseldatenträger müssen bei jeder Verwendung mit einem aktuellen Schutzprogramm auf Schadsoftware überprüft werden."
+        "explanation": "Wechseldatenträger müssen bei jeder Verwendung mit einem aktuellen Schutzprogramm auf Schadsoftware überprüft werden.",
+        "sizeCategory": "all"
     },
     {
         "id": "A1-29",
         "objectType": "Wechseldatenträger / Speichermedien",
         "name": "Angemessene Kennzeichnung der Datenträger beim Versand",
-        "explanation": "Eindeutige Kennzeichnung für Empfänger, aber keine Rückschlüsse für andere ermöglichen."
+        "explanation": "Eindeutige Kennzeichnung für Empfänger, aber keine Rückschlüsse für andere ermöglichen.",
+        "sizeCategory": "all"
     },
     {
         "id": "A1-30",
         "objectType": "Wechseldatenträger / Speichermedien",
         "name": "Sichere Versandart und Verpackung",
-        "explanation": "Versand-Anbieter mit sicherem Nachweis-System, manipulationssichere Versandart und Verpackung verwenden."
+        "explanation": "Versand-Anbieter mit sicherem Nachweis-System, manipulationssichere Versandart und Verpackung verwenden.",
+        "sizeCategory": "all"
     },
     {
         "id": "A1-31",
         "objectType": "Wechseldatenträger / Speichermedien",
         "name": "Sicheres Löschen der Datenträger vor und nach der Verwendung",
-        "explanation": "Datenträger nach Verwendung immer sicher und vollständig Löschen. Ihr Rechner bietet dafür verschiedene Möglichkeiten."
+        "explanation": "Datenträger nach Verwendung immer sicher und vollständig Löschen. Ihr Rechner bietet dafür verschiedene Möglichkeiten.",
+        "sizeCategory": "all"
     },
     {
         "id": "A1-32",
         "objectType": "Netzwerksicherheit",
         "name": "Absicherung der Netzübergangspunkte",
-        "explanation": "Der Übergang zu anderen Netzen, insbesondere dem Internet, muss durch eine Firewall geschützt werden."
+        "explanation": "Der Übergang zu anderen Netzen, insbesondere dem Internet, muss durch eine Firewall geschützt werden.",
+        "sizeCategory": "all"
     },
     {
         "id": "A1-33",
         "objectType": "Netzwerksicherheit",
         "name": "Dokumentation des Netzes",
-        "explanation": "Das interne Netz ist inklusive eines Netzplanes zu dokumentieren."
+        "explanation": "Das interne Netz ist inklusive eines Netzplanes zu dokumentieren.",
+        "sizeCategory": "all"
     },
     {
         "id": "A1-34",
         "objectType": "Netzwerksicherheit",
-        "name": "Grundlegende Authentisierung für den Netzmanagement- Zugriff",
-        "explanation": "Für den Management-Zugriff auf Netzkomponenten und auf Managementinformationen muss eine geeignete Authentisierung verwendet werden."
+        "name": "Grundlegende Authentisierung für den Netzmanagement-Zugriff",
+        "explanation": "Für den Management-Zugriff auf Netzkomponenten und auf Managementinformationen muss eine geeignete Authentisierung verwendet werden.",
+        "sizeCategory": "all"
     },
     {
         "id": "A2-1",
         "objectType": "Mobile Anwendungen (Apps)",
         "name": "Minimierung und Kontrolle von App-Berechtigungen",
-        "explanation": "Minimierung der App- Berechtigungen."
+        "explanation": "Minimierung der App-Berechtigungen.",
+        "sizeCategory": "medium"
     },
     {
         "id": "A2-2",
-        "objectType": "Internet- Anwendungen",
+        "objectType": "Internet-Anwendungen",
         "name": "Zugriffskontrolle bei Webanwendungen",
-        "explanation": "Sicherstellung von Berechtigungen."
+        "explanation": "Sicherstellung von Berechtigungen.",
+        "sizeCategory": "medium"
     },
     {
         "id": "A2-3",
         "objectType": "Endgeräte",
         "name": "Nutzung von TLS",
-        "explanation": "Benutzer sollten darauf achten, dass zur Verschlüsselung von Webseiten TLS verwendet wird."
+        "explanation": "Benutzer sollten darauf achten, dass zur Verschlüsselung von Webseiten TLS verwendet wird.",
+        "sizeCategory": "medium"
     },
     {
         "id": "A2-4",
         "objectType": "Endgeräte",
         "name": "Restriktive Rechtevergabe",
-        "explanation": "Restriktive Rechtevergabe."
+        "explanation": "Restriktive Rechtevergabe.",
+        "sizeCategory": "medium"
     },
     {
         "id": "A2-5",
         "objectType": "Endgeräte mit dem Betriebssystem Windows",
-        "name": "Sichere zentrale Authentisierung in Windows- Netzen",
-        "explanation": "In reinen Windows-Netzen sollte zur zentralen Authentisierung für Single Sign On (SSO) ausschließlich Kerberos eingesetzt werden."
+        "name": "Sichere zentrale Authentisierung in Windows-Netzen",
+        "explanation": "In reinen Windows-Netzen sollte zur zentralen Authentisierung für Single Sign On (SSO) ausschließlich Kerberos eingesetzt werden.",
+        "sizeCategory": "medium"
     },
     {
         "id": "A2-6",
         "objectType": "Smartphone und Tablet",
         "name": "Richtlinie für Mitarbeiter zur Benutzung von mobilen Geräten",
-        "explanation": "Es sollte eine verbindliche Richtlinie für Mitarbeiter zur Benutzung von mobilen Geräten erstellt werden."
+        "explanation": "Es sollte eine verbindliche Richtlinie für Mitarbeiter zur Benutzung von mobilen Geräten erstellt werden.",
+        "sizeCategory": "medium"
     },
     {
         "id": "A2-7",
         "objectType": "Smartphone und Tablet",
         "name": "Verwendung von Sprachassistenten",
-        "explanation": "Sprachassistenten sollten nur eingesetzt werden, wenn sie zwingend notwendig sind."
+        "explanation": "Sprachassistenten sollten nur eingesetzt werden, wenn sie zwingend notwendig sind.",
+        "sizeCategory": "medium"
     },
     {
         "id": "A2-8",
         "objectType": "Mobiltelefon",
         "name": "Sicherheitsrichtlinien und Regelungen für die Mobiltelefon-Nutzung",
-        "explanation": "Werden Mobiltelefone für dienstliche Zwecke verwendet, muss eine Nutzungs- und Sicherheitsrichtlinie erstellt werden."
+        "explanation": "Werden Mobiltelefone für dienstliche Zwecke verwendet, muss eine Nutzungs- und Sicherheitsrichtlinie erstellt werden.",
+        "sizeCategory": "medium"
     },
     {
         "id": "A2-9",
         "objectType": "Mobiltelefon",
         "name": "Sichere Datenübertragung über Mobiltelefone",
-        "explanation": "Es sollte geregelt sein, welche Daten über Mobiltelefone übertragen werden dürfen. Diese sind zu verschlüsseln."
+        "explanation": "Es sollte geregelt sein, welche Daten über Mobiltelefone übertragen werden dürfen. Diese sind zu verschlüsseln.",
+        "sizeCategory": "medium"
     },
     {
         "id": "A2-10",
         "objectType": "Wechseldatenträger / Speichermedien",
         "name": "Regelung zur Mitnahme von Wechseldatenträgern",
-        "explanation": "Es sollte klare schriftliche Regeln dazu geben, ob, wie und zu welchen Anlässen Wechseldatenträger mitgenommen werden dürfen."
+        "explanation": "Es sollte klare schriftliche Regeln dazu geben, ob, wie und zu welchen Anlässen Wechseldatenträger mitgenommen werden dürfen.",
+        "sizeCategory": "medium"
     },
     {
         "id": "A2-11",
         "objectType": "Netzwerksicherheit",
         "name": "Umfassende Protokollierung, Alarmierung und Logging von Ereignissen",
-        "explanation": "Wichtige Ereignisse auf Netzkomponenten und auf den Netzmanagement- Werkzeugen sollten automatisch an ein zentrales Management-System übermittelt und dort protokolliert werden."
+        "explanation": "Wichtige Ereignisse auf Netzkomponenten und auf den Netzmanagement-Werkzeugen sollten automatisch an ein zentrales Management-System übermittelt und dort protokolliert werden.",
+        "sizeCategory": "medium"
     },
     {
         "id": "A3-1",
         "objectType": "Smartphone und Tablet",
         "name": "Festlegung einer Richtlinie für den Einsatz von Smartphones und Tablets",
-        "explanation": "Bevor eine Praxis Smartphones oder Tablets bereitstellt, betreibt oder einsetzt, muss eine generelle Richtlinie im Hinblick auf die Nutzung und Kontrolle der Geräte festgelegt werden."
+        "explanation": "Bevor eine Praxis Smartphones oder Tablets bereitstellt, betreibt oder einsetzt, muss eine generelle Richtlinie im Hinblick auf die Nutzung und Kontrolle der Geräte festgelegt werden.",
+        "sizeCategory": "large"
     },
     {
         "id": "A3-2",
         "objectType": "Smartphone und Tablet",
         "name": "Auswahl und Freigabe von Apps",
-        "explanation": "Apps aus öffentlichen App- Stores sollten durch die Verantwortlichen geprüft und freigegeben werden."
+        "explanation": "Apps aus öffentlichen App-Stores sollten durch die Verantwortlichen geprüft und freigegeben werden.",
+        "sizeCategory": "large"
     },
     {
         "id": "A3-3",
         "objectType": "Smartphone und Tablet",
         "name": "Definition der erlaubten Informationen und Applikationen auf mobilen Geräten",
-        "explanation": "Die Praxis sollte festlegen, welche Informationen auf den mobilen Endgeräten verarbeitet werden dürfen."
+        "explanation": "Die Praxis sollte festlegen, welche Informationen auf den mobilen Endgeräten verarbeitet werden dürfen.",
+        "sizeCategory": "large"
     },
     {
         "id": "A3-4",
         "objectType": "Mobile Device Management (MDM)",
         "name": "Sichere Anbindung der mobilen Endgeräte an die Institution",
-        "explanation": "Die Verbindung der mobilen Endgeräte zum MDM sollte angemessen abgesichert werden."
+        "explanation": "Die Verbindung der mobilen Endgeräte zum MDM sollte angemessen abgesichert werden.",
+        "sizeCategory": "large"
     },
     {
         "id": "A3-5",
         "objectType": "Mobile Device Management (MDM)",
         "name": "Berechtigungsmanagement im MDM",
-        "explanation": "Für das MDM sollte ein Berechtigungskonzept erstellt, dokumentiert und angewendet werden."
+        "explanation": "Für das MDM sollte ein Berechtigungskonzept erstellt, dokumentiert und angewendet werden.",
+        "sizeCategory": "large"
     },
     {
         "id": "A3-6",
         "objectType": "Mobile Device Management (MDM)",
         "name": "Verwaltung von Zertifikaten",
-        "explanation": "Zertifikate zur Nutzung von Diensten auf dem mobilen Endgerät sollten zentral über das MDM installiert, deinstalliert und aktualisiert werden."
+        "explanation": "Zertifikate zur Nutzung von Diensten auf dem mobilen Endgerät sollten zentral über das MDM installiert, deinstalliert und aktualisiert werden.",
+        "sizeCategory": "large"
     },
     {
         "id": "A3-7",
         "objectType": "Mobile Device Management (MDM)",
         "name": "Fernlöschung und Außerbetriebnahme von Endgeräten",
-        "explanation": "Das MDM sollte sicherstellen, dass sämtliche Daten auf dem mobilen Endgerät aus der Ferne gelöscht werden können."
+        "explanation": "Das MDM sollte sicherstellen, dass sämtliche Daten auf dem mobilen Endgerät aus der Ferne gelöscht werden können.",
+        "sizeCategory": "large"
     },
     {
         "id": "A3-8",
         "objectType": "Mobile Device Management (MDM)",
         "name": "Auswahl und Freigabe von Apps",
-        "explanation": "Apps aus öffentlichen App- Stores sollten durch die Verantwortlichen geprüft und freigegeben werden."
+        "explanation": "Apps aus öffentlichen App-Stores sollten durch die Verantwortlichen geprüft und freigegeben werden.",
+        "sizeCategory": "large"
     },
     {
         "id": "A3-9",
         "objectType": "Mobile Device Management (MDM)",
         "name": "Festlegung erlaubter Informationen auf mobilen Endgeräten",
-        "explanation": "Die Praxis sollte festlegen, welche Informationen die mobilen Endgeräte unter welchen Bedingungen verarbeiten dürfen."
+        "explanation": "Die Praxis sollte festlegen, welche Informationen die mobilen Endgeräte unter welchen Bedingungen verarbeiten dürfen.",
+        "sizeCategory": "large"
     },
     {
         "id": "A3-10",
         "objectType": "Wechseldatenträger / Speichermedien",
         "name": "Datenträgerverschlüsselung",
-        "explanation": "Wechseldatenträger sollten vollständig verschlüsselt werden."
+        "explanation": "Wechseldatenträger sollten vollständig verschlüsselt werden.",
+        "sizeCategory": "large"
     },
     {
         "id": "A3-11",
         "objectType": "Wechseldatenträger / Speichermedien",
         "name": "Integritätsschutz durch Checksummen oder digitale Signaturen",
-        "explanation": "Ein Verfahren zum Schutz gegen zufällige oder vorsätzliche Veränderungen sollte eingesetzt werden."
+        "explanation": "Ein Verfahren zum Schutz gegen zufällige oder vorsätzliche Veränderungen sollte eingesetzt werden.",
+        "sizeCategory": "large"
     },
     {
         "id": "A3-12",
         "objectType": "Netzwerksicherheit",
         "name": "Absicherung von schützenswerten Informationen",
-        "explanation": "Schützenswerte Informationen müssen über nach dem derzeitigen Stand der Technik sichere Protokolle übertragen werden, falls nicht über vertrauenswürdige dedizierte Netzsegmente kommuniziert wird."
+        "explanation": "Schützenswerte Informationen müssen über nach dem derzeitigen Stand der Technik sichere Protokolle übertragen werden, falls nicht über vertrauenswürdige dedizierte Netzsegmente kommuniziert wird.",
+        "sizeCategory": "large"
     },
     {
         "id": "A4-1",
         "objectType": "Medizinische Großgeräte",
         "name": "Einschränkung des Zugriffs für Konfigurations- und Wartungsschnittstellen",
-        "explanation": "Es muss sichergestellt werden, dass nur zuvor festgelegte berechtigte Mitarbeiter auf Konfigurations- und Wartungsschnittstellen von medizinischen Großgeräten zugreifen können. Standardmäßig eingerichtete bzw. herstellerseitig gesetzte Passwörter müssen gewechselt werden. Der Wechsel muss dokumentiert und das Passwort sicher hinterlegt werden. Standardmäßig eingerichtete bzw. herstellerseitig gesetzte Benutzerkonten sollten gewechselt werden."
+        "explanation": "Es muss sichergestellt werden, dass nur zuvor festgelegte berechtigte Mitarbeiter auf Konfigurations- und Wartungsschnittstellen von medizinischen Großgeräten zugreifen können. Standardmäßig eingerichtete bzw. herstellerseitig gesetzte Passwörter müssen gewechselt werden. Der Wechsel muss dokumentiert und das Passwort sicher hinterlegt werden. Standardmäßig eingerichtete bzw. herstellerseitig gesetzte Benutzerkonten sollten gewechselt werden.",
+        "sizeCategory": "all"
     },
     {
         "id": "A4-2",
         "objectType": "Medizinische Großgeräte",
         "name": "Nutzung sicherer Protokolle für die Konfiguration und Wartung",
-        "explanation": "Für die Konfiguration und Wartung von medizinischen Großgeräten müssen sichere Protokolle genutzt werden. Die Daten müssen beim Transport vor unberechtigtem Mitlesen und Veränderungen geschützt werden."
+        "explanation": "Für die Konfiguration und Wartung von medizinischen Großgeräten müssen sichere Protokolle genutzt werden. Die Daten müssen beim Transport vor unberechtigtem Mitlesen und Veränderungen geschützt werden.",
+        "sizeCategory": "all"
     },
     {
         "id": "A4-3",
         "objectType": "Medizinische Großgeräte",
         "name": "Protokollierung",
-        "explanation": "Es muss festgelegt werden: • welche Daten und Ereignisse protokolliert werden sollen, • wie lange die Protokolldaten aufbewahrt werden und • wer diese einsehen darf. Generell müssen alle sicherheitsrelevanten Systemereignisse protokolliert und bei Bedarf ausgewertet werden."
+        "explanation": "Es muss festgelegt werden: • welche Daten und Ereignisse protokolliert werden sollen, • wie lange die Protokolldaten aufbewahrt werden und • wer diese einsehen darf. Generell müssen alle sicherheitsrelevanten Systemereignisse protokolliert und bei Bedarf ausgewertet werden.",
+        "sizeCategory": "all"
     },
     {
         "id": "A4-4",
         "objectType": "Medizinische Großgeräte",
         "name": "Deaktivierung nicht genutzter Dienste, Funktionen und Schnittstellen",
-        "explanation": "Alle nicht genutzten Dienste, Funktionen und Schnittstellen der medizinischen Großgeräte müssen soweit möglich deaktiviert oder deinstalliert werden."
+        "explanation": "Alle nicht genutzten Dienste, Funktionen und Schnittstellen der medizinischen Großgeräte müssen soweit möglich deaktiviert oder deinstalliert werden.",
+        "sizeCategory": "all"
     },
     {
         "id": "A4-5",
         "objectType": "Medizinische Großgeräte",
         "name": "Deaktivierung nicht genutzter Benutzerkonten",
-        "explanation": "Nicht genutzte und unnötige Benutzerkonten müssen deaktiviert werden."
+        "explanation": "Nicht genutzte und unnötige Benutzerkonten müssen deaktiviert werden.",
+        "sizeCategory": "all"
     },
     {
         "id": "A4-6",
         "objectType": "Medizinische Großgeräte",
         "name": "Netzsegmentierung",
-        "explanation": "Medizinische Großgeräte sollten von der weiteren IT getrennt werden."
+        "explanation": "Medizinische Großgeräte sollten von der weiteren IT getrennt werden.",
+        "sizeCategory": "all"
     },
     {
         "id": "A5-1",
         "objectType": "Telematikinfrastruktur",
         "name": "Planung und Durchführung der Installation",
-        "explanation": "Die von der gematik GmbH auf Ihrer Website zur Verfügung gestellten Informationen für die Installation der TI-Komponenten müssen berücksichtigt werden."
+        "explanation": "Die von der gematik GmbH auf Ihrer Website zur Verfügung gestellten Informationen für die Installation der TI-Komponenten müssen berücksichtigt werden.",
+        "sizeCategory": "all"
     },
     {
         "id": "A5-2",
         "objectType": "Telematikinfrastruktur",
         "name": "Betrieb",
-        "explanation": "Die Anwender- und Administrationsdokumentationen der gematik GmbH und der Hersteller der TI-Komponenten, insbesondere die Hinweise zum sicheren Betrieb der Komponenten, müssen berücksichtigt werden."
+        "explanation": "Die Anwender- und Administrationsdokumentationen der gematik GmbH und der Hersteller der TI-Komponenten, insbesondere die Hinweise zum sicheren Betrieb der Komponenten, müssen berücksichtigt werden.",
+        "sizeCategory": "all"
     },
     {
         "id": "A5-3",
         "objectType": "Telematikinfrastruktur",
         "name": "Schutz vor unberechtigtem physischem Zugriff",
-        "explanation": "Die TI-Komponenten in der Praxis müssen entsprechend den Vorgaben im jeweiligen Handbuch vor dem Zugriff Unberechtigter geschützt werden."
+        "explanation": "Die TI-Komponenten in der Praxis müssen entsprechend den Vorgaben im jeweiligen Handbuch vor dem Zugriff Unberechtigter geschützt werden.",
+        "sizeCategory": "all"
     },
     {
         "id": "A5-4",
         "objectType": "Telematikinfrastruktur",
         "name": "Betriebsart „parallel“",
-        "explanation": "Wird der Konnektor in der Konfiguration „parallel“ ins Netzwerk des Leistungserbringers eingebracht, müssen zusätzliche Maßnahmen ergriffen werden, um die mit dem Internet verbundene Praxis auf Netzebene zu schützen."
+        "explanation": "Wird der Konnektor in der Konfiguration „parallel“ ins Netzwerk des Leistungserbringers eingebracht, müssen zusätzliche Maßnahmen ergriffen werden, um die mit dem Internet verbundene Praxis auf Netzebene zu schützen.",
+        "sizeCategory": "all"
     },
     {
         "id": "A5-5",
         "objectType": "Telematikinfrastruktur",
         "name": "Geschützte Kommunikation mit dem Konnektor",
-        "explanation": "Es müssen Authentisierungsmerkmale für die Clients (Zertifikate oder Username und Passwort) erstellt und in die Clients eingebracht bzw. die Clients entsprechend konfiguriert werden."
+        "explanation": "Es müssen Authentisierungsmerkmale für die Clients (Zertifikate oder Username und Passwort) erstellt und in die Clients eingebracht bzw. die Clients entsprechend konfiguriert werden.",
+        "sizeCategory": "all"
     },
     {
         "id": "A5-6",
         "objectType": "Telematikinfrastruktur",
         "name": "Zeitnahes Installieren verfügbarer Aktualisierungen",
-        "explanation": "Die TI-Komponenten in der Praxis müssen regelmäßig auf verfügbare Aktualisierungen geprüft werden und verfügbare Aktualisierungen müssen zeitnah installiert werden. Bei Verfügbarkeit einer Funktion für automatische Updates sollte diese aktiviert werden."
+        "explanation": "Die TI-Komponenten in der Praxis müssen regelmäßig auf verfügbare Aktualisierungen geprüft werden und verfügbare Aktualisierungen müssen zeitnah installiert werden. Bei Verfügbarkeit einer Funktion für automatische Updates sollte diese aktiviert werden.",
+        "sizeCategory": "all"
     },
     {
         "id": "A5-7",
         "objectType": "Telematikinfrastruktur",
         "name": "Sicheres Aufbewahren von Administrationsdaten",
-        "explanation": "Die im Zuge der Installation der TI-Komponenten eingerichteten Administrationsdaten, insbesondere auch Passwörter für den Administrator-Zugang, müssen sicher aufbewahrt werden. Jedoch muss gewährleistet sein, dass der Leistungserbringer auch ohne seinen Dienstleister die Daten kennt."
+        "explanation": "Die im Zuge der Installation der TI-Komponenten eingerichteten Administrationsdaten, insbesondere auch Passwörter für den Administrator-Zugang, müssen sicher aufbewahrt werden. Jedoch muss gewährleistet sein, dass der Leistungserbringer auch ohne seinen Dienstleister die Daten kennt.",
+        "sizeCategory": "all"
     }
 ]

@@ -10,12 +10,17 @@ import SwiftUI
 struct ContentView: View {
     
     @EnvironmentObject var dataController: DataController
+    @EnvironmentObject var profileViewModel: ProfileViewModel
     
     var body: some View {
         TabView {
             DashboardView()
                 .tabItem {
                     Label("Übersicht", systemImage: "house")
+                }
+                .onAppear {
+                    dataController.fetchRequirements(forProfile: profileViewModel.businessProfile)
+                    dataController.getObjectTypes()
                 }
             DocumentationView()
                 .tabItem {

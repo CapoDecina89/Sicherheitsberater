@@ -12,6 +12,7 @@ struct SicherheitsberaterApp: App {
     
     @StateObject var profileViewModel: ProfileViewModel = ProfileViewModel()
     @StateObject var dataController = DataController()
+    @Environment(\.scenePhase) var scenePhase
 
     
     var body: some Scene {
@@ -20,6 +21,11 @@ struct SicherheitsberaterApp: App {
                 .environmentObject(profileViewModel)
                 .environmentObject(dataController)
                 .environment(\.managedObjectContext, dataController.container.viewContext)
+        }
+        //wird beim aktivieren der App ausgeführt
+        .onChange(of: scenePhase) { phase in
+            if phase == .active {
+            }
         }
     }
 }

@@ -14,5 +14,5 @@ struct RequirementItem: Codable, Hashable, Identifiable {
     var explanation: String
     var isFulfilled: Bool? 
     var changingDate: Date?
-    //var isRelevant: Bool? = true
+    var sizeCategory: String
 }

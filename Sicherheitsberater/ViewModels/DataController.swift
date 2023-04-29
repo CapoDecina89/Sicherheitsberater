@@ -21,15 +21,62 @@ class DataController: ObservableObject {
             }
         }
         preloadJSONToCoreData()
-        fetchRequirements()
-        getObjectTypes()
+        //fetchRequirements()
     }
     
     func fetchRequirements() {
         let request = NSFetchRequest<RequirementEntity>(entityName: "RequirementEntity")
+        do {
+            savedEntities = try container.viewContext.fetch(request)
+        } catch let error {
+            print("Error fetching. \(error)")
+        }
+    }
+    
+    ///Implementierung mit Filtern
+    func fetchRequirements(forProfile profile: Profile) {
+        
+        //Filter entsprechen des Profils einstellen
+        let request = NSFetchRequest<RequirementEntity>(entityName: "RequirementEntity")
+        var compoundPredicate: NSPredicate {
+            var predicates: [NSPredicate] = []
+            //Filter nach Praxisgröße
+            var sizeFilter: NSPredicate? = nil
+            switch profile.size {
+            case .small:
+                sizeFilter = NSPredicate(format: "(sizeCategory CONTAINS[c] 'all')")
+            case .medium:
+                sizeFilter = NSPredicate(format: "NOT(sizeCategory CONTAINS[c] 'large')")
+            default:
+                break
+            }
+            if (sizeFilter != nil) {
+                predicates.append(sizeFilter!)
+            }
+            
+            //Filter nach Devices
+            var deviceFilter: [NSPredicate] = []
+            if (profile.hasBigMedTech == false) {
+                deviceFilter.append(NSPredicate(format: "NOT(objectType CONTAINS[c] 'Großgeräte')"))
+            }
+            if (profile.hasMobileDevice == false) {
+                deviceFilter.append(NSPredicate(format: "NOT(objectType CONTAINS[c] 'Mobil')"))
+                deviceFilter.append(NSPredicate(format: "NOT(objectType CONTAINS[c] 'Smartphone')"))
+            }
+            if (profile.hasWebServices == false) {
+                deviceFilter.append(NSPredicate(format: "NOT(objectType CONTAINS[c] 'Internet')"))
+            }
+            //Filter mit AND verknüpfen
+            predicates.append(contentsOf: deviceFilter)
+            
+            return NSCompoundPredicate(andPredicateWithSubpredicates: predicates)
+        }
+        //Filterkombination für Request übergeben
+        request.predicate = compoundPredicate
         
         do {
             savedEntities = try container.viewContext.fetch(request)
+            print(savedEntities)
         } catch let error {
             print("Error fetching. \(error)")
         }
@@ -43,6 +90,7 @@ class DataController: ObservableObject {
         newRequirement.explanation = requirement.explanation
         newRequirement.isFulfilled = requirement.isFulfilled ?? false
         newRequirement.changingDate = requirement.changingDate
+        newRequirement.sizeCategory = requirement.sizeCategory
         saveData()
         
     }
@@ -62,7 +110,7 @@ class DataController: ObservableObject {
     
     func getObjectTypes() {
         objectTypes = Array(savedEntities.map { $0.objectType ?? ""}).uniqued()
-        print(objectTypes)
+        
     }
     
     func preloadJSONToCoreData() {

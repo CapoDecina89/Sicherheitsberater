@@ -7,5 +7,6 @@
         <attribute name="isFulfilled" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
         <attribute name="name" optional="YES" attributeType="String"/>
         <attribute name="objectType" optional="YES" attributeType="String"/>
+        <attribute name="sizeCategory" optional="YES" attributeType="String"/>
     </entity>
 </model>
