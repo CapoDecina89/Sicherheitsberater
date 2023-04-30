@@ -10,8 +10,15 @@ import SwiftUI
 struct DocumentationView: View {
     var body: some View {
         NavigationStack{
-            DisclosureGroup(/*@START_MENU_TOKEN@*/"Group"/*@END_MENU_TOKEN@*/) {
-                /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Content@*/Text("Content")/*@END_MENU_TOKEN@*/
+            Grid {
+                GridRow {
+                    ExampleDocumentView()
+                    ExampleDocumentView()
+                }
+                GridRow {
+                    ExampleDocumentView()
+                    ExampleDocumentView()
+                }
             }
                 .navigationTitle("Dokumentation")
         }

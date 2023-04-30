@@ -11,8 +11,8 @@
 		435700A029F82F83008D2D82 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4357009F29F82F83008D2D82 /* ProfileViewModel.swift */; };
 		435700A229F8301B008D2D82 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435700A129F8301B008D2D82 /* Profile.swift */; };
 		435700A429FACFDD008D2D82 /* EmergencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435700A329FACFDD008D2D82 /* EmergencyView.swift */; };
-		435700A829FBBB50008D2D82 /* FilteredList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435700A729FBBB50008D2D82 /* FilteredList.swift */; };
 		435700B429FBD085008D2D82 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435700B329FBD085008D2D82 /* DataController.swift */; };
+		435BE55729FDB4AE0087ECD7 /* ExampleDocumentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435BE55629FDB4AE0087ECD7 /* ExampleDocumentView.swift */; };
 		437A48E729E5944A004D7ED4 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437A48E629E5944A004D7ED4 /* DashboardView.swift */; };
 		4397E63B29E19EB0008AADA3 /* SicherheitsberaterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4397E63A29E19EB0008AADA3 /* SicherheitsberaterApp.swift */; };
 		4397E63D29E19EB0008AADA3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4397E63C29E19EB0008AADA3 /* ContentView.swift */; };
@@ -32,8 +32,8 @@
 		4357009F29F82F83008D2D82 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 		435700A129F8301B008D2D82 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		435700A329FACFDD008D2D82 /* EmergencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyView.swift; sourceTree = "<group>"; };
-		435700A729FBBB50008D2D82 /* FilteredList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteredList.swift; sourceTree = "<group>"; };
 		435700B329FBD085008D2D82 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		435BE55629FDB4AE0087ECD7 /* ExampleDocumentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleDocumentView.swift; sourceTree = "<group>"; };
 		437A48E629E5944A004D7ED4 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		4397E63729E19EB0008AADA3 /* Sicherheitsberater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sicherheitsberater.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4397E63A29E19EB0008AADA3 /* SicherheitsberaterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SicherheitsberaterApp.swift; sourceTree = "<group>"; };
@@ -83,7 +83,7 @@
 			children = (
 				4397E63C29E19EB0008AADA3 /* ContentView.swift */,
 				437A48E629E5944A004D7ED4 /* DashboardView.swift */,
-				435700A729FBBB50008D2D82 /* FilteredList.swift */,
+				435BE55629FDB4AE0087ECD7 /* ExampleDocumentView.swift */,
 				43D2A5AD29F32E6000329073 /* ModuleItemView.swift */,
 				435700A329FACFDD008D2D82 /* EmergencyView.swift */,
 				43D2A5AB29F2E89A00329073 /* DetailView.swift */,
@@ -210,10 +210,10 @@
 				435700A229F8301B008D2D82 /* Profile.swift in Sources */,
 				43D2A5AC29F2E89A00329073 /* DetailView.swift in Sources */,
 				4397E63D29E19EB0008AADA3 /* ContentView.swift in Sources */,
-				435700A829FBBB50008D2D82 /* FilteredList.swift in Sources */,
 				437A48E729E5944A004D7ED4 /* DashboardView.swift in Sources */,
 				435700A429FACFDD008D2D82 /* EmergencyView.swift in Sources */,
 				435700A029F82F83008D2D82 /* ProfileViewModel.swift in Sources */,
+				435BE55729FDB4AE0087ECD7 /* ExampleDocumentView.swift in Sources */,
 				43D2A5AE29F32E6000329073 /* ModuleItemView.swift in Sources */,
 				435700B429FBD085008D2D82 /* DataController.swift in Sources */,
 				43BD661429FBE47200BF3127 /* Requirements.xcdatamodeld in Sources */,
