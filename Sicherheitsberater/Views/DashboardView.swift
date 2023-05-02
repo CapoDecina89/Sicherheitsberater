@@ -21,6 +21,7 @@ struct DashboardView: View {
     
     var body: some View {
         NavigationStack {
+            // Variante DisclosureGroup
             List {
                 if searchText.isEmpty {
                     ForEach(dataController.objectTypes, id: \.self) { objectType in
@@ -28,7 +29,7 @@ struct DashboardView: View {
                             ForEach(dataController.savedEntities) { requirement in
                                 if (requirement.objectType == objectType) {
                                     NavigationLink {
-                                        DetailView()
+                                        DetailView(requirement: requirement)
                                     }label: {
                                         ModuleItemView(requirement: requirement)
                                     }
@@ -37,15 +38,30 @@ struct DashboardView: View {
                         }
                     }
                 } else {
-                    ForEach(searchedEntities) { requirement in
-                        NavigationLink {
-                            DetailView()
-                        }label: {
-                            ModuleItemView(requirement: requirement)
-                        }
-                    }
+                    searchedItemList
                 }
             }
+            
+            //Variante Section
+            /*List {
+                if searchText.isEmpty {
+                    ForEach(dataController.objectTypes, id: \.self) { objectType in
+                        Section(objectType) {
+                            ForEach(dataController.savedEntities) { requirement in
+                                if (requirement.objectType == objectType) {
+                                    NavigationLink {
+                                        DetailView(requirement: requirement)
+                                    }label: {
+                                        ModuleItemView(requirement: requirement)
+                                    }
+                                }else {}
+                            }
+                        }
+                    }
+                } else {
+                    searchedItemList
+                }
+            }*/
             .searchable(text: $searchText, prompt: "Suche Anforderung")
             .navigationTitle("Übersicht")
         }
@@ -56,5 +72,19 @@ struct DashboardView_Previews: PreviewProvider {
     static var previews: some View {
         DashboardView()
             .environmentObject(DataController())
+    }
+}
+
+//Suchergebnisse
+private extension DashboardView {
+    
+    var searchedItemList: some View {
+        ForEach(searchedEntities) { requirement in
+            NavigationLink {
+                DetailView(requirement: requirement)
+            }label: {
+                ModuleItemView(requirement: requirement)
+            }
+        }
     }
 }

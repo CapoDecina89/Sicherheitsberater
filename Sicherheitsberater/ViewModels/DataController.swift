@@ -95,8 +95,10 @@ class DataController: ObservableObject {
         
     }
     
-    func updateRequirement(entity: RequirementEntity) {
-        
+    func updateChangingTime(entity: RequirementEntity) {
+        let newChangingDate = Date()
+        entity.changingDate = newChangingDate
+        saveData()
     }
     
     func saveData() {

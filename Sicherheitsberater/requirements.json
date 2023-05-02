@@ -37,7 +37,7 @@
     {
         "id": "A1-6",
         "objectType": "Office-Produkte",
-        "name": "Beseitigung von Rest-Informationen vor Weitergabe von Dokumenten",
+        "name": "Beseitigung von Restinformationen vor Weitergabe von Dokumenten",
         "explanation": "Vertrauliches aus Dokumenten löschen vor einer Weitergabe an Dritte.",
         "sizeCategory": "all"
     },

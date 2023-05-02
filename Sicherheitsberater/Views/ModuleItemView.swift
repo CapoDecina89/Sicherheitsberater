@@ -16,11 +16,13 @@ struct ModuleItemView: View {
         HStack{
             Button {
                 requirement.isFulfilled.toggle()
+                dataController.updateChangingTime(entity: requirement)
                 dataController.saveData()
             }label: {
-                Image(systemName: "checkmark.circle.fill")
+                Image(systemName: requirement.isFulfilled ? "checkmark.circle.fill" : "circle")
                     .foregroundColor(.blue)
             }
+            .buttonStyle(.plain)
             Text(requirement.name ?? "")
             Spacer()
             Button {
