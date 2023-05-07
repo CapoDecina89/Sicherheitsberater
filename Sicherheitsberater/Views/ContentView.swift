@@ -25,7 +25,7 @@ struct ContentView: View {
                     dataController.fetchRequirements(forProfile: profileViewModel.businessProfile)
                     dataController.getObjectTypes()
                 }
-            DocumentationView()
+            DocumentView()
                 .tabItem {
                     Label("Doku", systemImage: "doc.fill")
                 }

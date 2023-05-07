@@ -13,12 +13,15 @@ struct ExampleDocumentView: View {
         NavigationLink {
             PDFUIView(bundled: docName)
         } label: {
-            Image(systemName: "doc.richtext")
-                .resizable()
-                .aspectRatio(contentMode: .fit)
+            VStack {
+                Image(systemName: "doc.richtext")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
                 .frame(height: 40)
+                Text(docName.capitalized)
+            }
+            
         }
-
     }
 }
 

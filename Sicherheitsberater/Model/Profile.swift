@@ -20,6 +20,7 @@ case small, medium, large
 }
 
 struct EmergencyContact: Codable {
+    var company: String = ""
     var name: String = ""
     var mobileNr: String = ""
 }
