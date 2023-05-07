@@ -12,6 +12,7 @@ struct SicherheitsberaterApp: App {
     
     @StateObject var profileViewModel: ProfileViewModel = ProfileViewModel()
     @StateObject var dataController = DataController()
+    @StateObject var documentViewModel: DocumentViewModel = DocumentViewModel()
     @Environment(\.scenePhase) var scenePhase
 
     
@@ -19,6 +20,7 @@ struct SicherheitsberaterApp: App {
         WindowGroup {
             ContentView()
                 .environmentObject(profileViewModel)
+                .environmentObject(documentViewModel)
                 .environmentObject(dataController)
                 .environment(\.managedObjectContext, dataController.container.viewContext)
         }

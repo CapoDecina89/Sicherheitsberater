@@ -76,7 +76,6 @@ class DataController: ObservableObject {
         
         do {
             savedEntities = try container.viewContext.fetch(request)
-            print(savedEntities)
         } catch let error {
             print("Error fetching. \(error)")
         }

@@ -11,6 +11,9 @@ struct ContentView: View {
     
     @EnvironmentObject var dataController: DataController
     @EnvironmentObject var profileViewModel: ProfileViewModel
+    @EnvironmentObject var documentViewModel: DocumentViewModel
+    
+    
     
     var body: some View {
         TabView {
@@ -25,6 +28,9 @@ struct ContentView: View {
             DocumentationView()
                 .tabItem {
                     Label("Doku", systemImage: "doc.fill")
+                }
+                .onAppear {
+                    documentViewModel.updateStatus()
                 }
             EmergencyView()
                 .tabItem {
@@ -43,5 +49,7 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
             .environmentObject(DataController())
+            .environmentObject(ProfileViewModel())
+            .environmentObject(DocumentViewModel())
     }
 }
