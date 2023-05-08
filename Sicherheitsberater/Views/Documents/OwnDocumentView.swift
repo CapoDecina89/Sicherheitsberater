@@ -89,5 +89,6 @@ struct OwnDocumentView: View {
 struct OwnDocumentView_Previews: PreviewProvider {
     static var previews: some View {
         OwnDocumentView(docName: "netzplan")
+            .environmentObject(DocumentViewModel())
     }
 }

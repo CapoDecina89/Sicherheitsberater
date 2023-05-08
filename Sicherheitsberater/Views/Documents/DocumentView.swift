@@ -40,6 +40,19 @@ struct DocumentView: View {
                 } label: {
                     Text("Rollenmatrix für Berechtigungen")
                 }
+                
+                GroupBox {
+                    HStack {
+                        VStack {
+                            ExampleDocumentView(docName: "notfallplanBeispiel")
+                        }
+                        Spacer()
+                        OwnDocumentView(docName: "notfallplan")
+                    }
+                    .padding(.top)
+                } label: {
+                    Text("Notfallplanung (empfohlen)")
+                }
                 Spacer()
             }
             .padding()

@@ -19,7 +19,7 @@ struct ProfileView: View {
             VStack {
                 Form {
                     Section{
-                        TextField("Firma", text: $profileViewModel.businessProfile.emergencyContact.company)
+                        TextField("Firma (optional)", text: $profileViewModel.businessProfile.emergencyContact.company)
                         TextField("IT-Verantwortlicher/-Dienstleister", text: $profileViewModel.businessProfile.emergencyContact.name)
                         TextField("Notfallnummer", text: $profileViewModel.businessProfile.emergencyContact.mobileNr)
                     }header: {
