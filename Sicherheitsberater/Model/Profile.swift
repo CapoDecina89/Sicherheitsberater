@@ -15,11 +15,12 @@ struct Profile: Codable {
     var hasWebServices: Bool = false
 }
 
-enum SizeCategory: Codable {
+enum SizeCategory: String, Codable {
 case small, medium, large
 }
 
 struct EmergencyContact: Codable {
+    var company: String = ""
     var name: String = ""
     var mobileNr: String = ""
 }

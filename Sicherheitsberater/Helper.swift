@@ -34,3 +34,42 @@ public extension Array where Element: Hashable {
         return filter { seen.insert($0).inserted }
     }
 }
+
+extension FileManager {
+    func getDocumentsDirectory() -> URL {
+        let paths = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)
+        let documentsDirectory = paths[0]
+        return documentsDirectory
+    }
+    
+    func uploadFile(pickedURL:URL, fileName:String, fileExtension: String) {
+        let documentsURL = getDocumentsDirectory().appendingPathComponent(fileName + fileExtension )
+        print(documentsURL)
+        do{
+            try FileManager.default.copyItem(at: pickedURL, to: documentsURL)
+        } catch {
+            print("copy error")
+        }
+    }
+    
+    func deleteFile(fileName: String, fileExtension: String) {
+        let documentsURL = getDocumentsDirectory().appendingPathComponent(fileName + fileExtension )
+        do {
+            try FileManager.default.removeItem(at: documentsURL)
+        } catch {
+            print("Löschen war nicht möglich")
+        }
+        
+    }
+}
+
+extension URL    {
+    func checkFileExist() -> Bool {
+        let path = self.path
+        if (FileManager.default.fileExists(atPath: path))   {
+            return true
+        }else        {
+            return false;
+        }
+    }
+}

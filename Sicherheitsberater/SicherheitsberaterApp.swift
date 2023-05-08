@@ -10,14 +10,24 @@ import SwiftUI
 @main
 struct SicherheitsberaterApp: App {
     
-    @StateObject var requirementData: RequirementData = RequirementData()
     @StateObject var profileViewModel: ProfileViewModel = ProfileViewModel()
+    @StateObject var dataController = DataController()
+    @StateObject var documentViewModel: DocumentViewModel = DocumentViewModel()
+    @Environment(\.scenePhase) var scenePhase
+
     
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .environmentObject(requirementData)
                 .environmentObject(profileViewModel)
+                .environmentObject(documentViewModel)
+                .environmentObject(dataController)
+                .environment(\.managedObjectContext, dataController.container.viewContext)
+        }
+        //wird beim aktivieren der App ausgeführt
+        .onChange(of: scenePhase) { phase in
+            if phase == .active {
+            }
         }
     }
 }

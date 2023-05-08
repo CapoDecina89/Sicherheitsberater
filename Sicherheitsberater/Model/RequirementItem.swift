@@ -10,9 +10,9 @@ import Foundation
 struct RequirementItem: Codable, Hashable, Identifiable {
     var id: String
     var objectType: String
-    var requirement: String
+    var name: String
     var explanation: String
-    var isFulfilled: Bool? = false
+    var isFulfilled: Bool? 
     var changingDate: Date?
-    //var isRelevant: Bool? = true
+    var sizeCategory: String
 }

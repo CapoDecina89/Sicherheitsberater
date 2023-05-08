@@ -9,8 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @StateObject var requirementData = RequirementData()
-    @StateObject var profilViewModel = ProfileViewModel()
+    @EnvironmentObject var dataController: DataController
+    @EnvironmentObject var profileViewModel: ProfileViewModel
+    @EnvironmentObject var documentViewModel: DocumentViewModel
+    
+    
     
     var body: some View {
         TabView {
@@ -18,9 +21,16 @@ struct ContentView: View {
                 .tabItem {
                     Label("Übersicht", systemImage: "house")
                 }
-            DocumentationView()
+                .onAppear {
+                    dataController.fetchRequirements(forProfile: profileViewModel.businessProfile)
+                    dataController.getObjectTypes()
+                }
+            DocumentView()
                 .tabItem {
                     Label("Doku", systemImage: "doc.fill")
+                }
+                .onAppear {
+                    documentViewModel.updateStatus()
                 }
             EmergencyView()
                 .tabItem {
@@ -31,13 +41,15 @@ struct ContentView: View {
                     Label("Profil", systemImage: "person.circle")
                 }
         }
-        .environmentObject(requirementData)
-        .environmentObject(profilViewModel)
+        .environmentObject(dataController)
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .environmentObject(DataController())
+            .environmentObject(ProfileViewModel())
+            .environmentObject(DocumentViewModel())
     }
 }
