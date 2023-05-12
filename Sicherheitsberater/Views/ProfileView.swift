@@ -9,7 +9,6 @@ import SwiftUI
 
 struct ProfileView: View {
     @EnvironmentObject var profileViewModel: ProfileViewModel
-    @State private var showingKonnektorInfo = false
     @State private var showingWebserviceInfo = false
     @Environment(\.dismiss) var dismiss
     
@@ -45,31 +44,9 @@ struct ProfileView: View {
             }
             .navigationTitle("Profil")
         }
-        //Sheets sollten in eigene View ausgegliedert werden
-        
-        .sheet(isPresented: $showingKonnektorInfo){
-            HStack{
-                Text("Konnektor im Parallelbetrieb")
-                    .font(.title2)
-                    .fontWeight(.bold)
-                Spacer()
-                Button {
-                    showingKonnektorInfo = false
-                }label:{
-                    Image(systemName: "x.circle.fill")
-                        .foregroundColor(.secondary)
-                }
-            }
-            .padding(.horizontal)
-            
-            Text("Die Betriebsart des Konnektors kann in der Managementoberfläche des Konnektors eingesehen werden. Konsultieren sie im Zweifel die Bedienungsanleitung.\n\nWenn nicht alle Verbindungen in das Internet über den Konnektor laufen, sondern einzelne Geräte oder Netzwerkteile direkt mit dem Router verbunden sind, dann liegt ein Parallelbetrieb vor und für diese Verbindungen sind nicht über den Konnektor abgesichert.\n\nEs wird im Zweifel empfohlen die Option Reihenbetrieb zu wählen.")
-                .presentationDetents([.medium])
-                .padding()
-        }
-        
         .sheet(isPresented: $showingWebserviceInfo){
             HStack{
-                Text("Webservice vorhanden")
+                Text("Webanwendungen vorhanden")
                     .font(.title2)
                     .fontWeight(.bold)
                 Spacer()
@@ -82,7 +59,7 @@ struct ProfileView: View {
             }
             .padding(.horizontal)
             
-            Text("Test")
+            Text("Die Richtlinie meint damit Dienste, die für die Patienten oder andere Externe, über das Internet angeboten werden. Darunter fallen z.B. Online-Terminvergabe oder Online-Anamnese.")
                 .presentationDetents([.fraction(0.30)])
                 .padding()
         }
@@ -98,24 +75,10 @@ struct ProfileView_Previews: PreviewProvider {
 private extension ProfileView {
         
     var deviceSettings: some View {
-        Section{
-            
+        Section {
             Toggle("Medizinische Großgeräte vorhanden (MTR, CT, ...)", isOn: $profileViewModel.businessProfile.hasBigMedTech)
-            //ggf. Mobiltelefone, Smartphone und Tablet zusammenfassen, da Trennung nicht zeitgemäß
+            // Mobiltelefone, Smartphone und Tablet zusammenfassen, da Trennung nicht zeitgemäß
             Toggle("Mobilgeräte (Smartphone/Tablet) vorhanden", isOn: $profileViewModel.businessProfile.hasMobileDevice)
-            //Toggle("Tablets vorhanden", isOn: $profileViewModel.businessProfile.hasTablet)
-            //ggf. entfernen und stattdessen die Anforderung entweder Reihenbetrieb oder Firewall in Katalog aufnehmen
-            /*Toggle(isOn: $profileViewModel.businessProfile.hasParallelMode) {
-                HStack{
-                    Text("Konnektor im Parallelbetrieb")
-                    Spacer()
-                    Button {
-                        showingKonnektorInfo.toggle()
-                    }label:{
-                        Image(systemName: "info.circle")
-                        }
-                }
-            }*/
             Toggle(isOn: $profileViewModel.businessProfile.hasWebServices) {
                 HStack{
                     Text("Webservices vorhanden")
@@ -124,14 +87,13 @@ private extension ProfileView {
                         showingWebserviceInfo.toggle()
                     }label:{
                         Image(systemName: "info.circle")
-                        }
+                    }
                 }
-                
             }
         } header: {
             Text("vorhandene Geräte")
         }footer: {
-            Text("Durch Ihre Auswahl werden Ihnen Anforderungen nur angezeigt, wenn Sie die entsprechenden Geräte oder Dienste auch verwenden.")
+            Text("Durch Ihre Auswahl werden Ihnen Maßnahmen nur angezeigt, wenn Sie die entsprechenden Geräte oder Dienste auch verwenden.")
         }
     }
 }

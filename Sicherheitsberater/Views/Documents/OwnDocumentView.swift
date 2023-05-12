@@ -67,8 +67,7 @@ struct OwnDocumentView: View {
                     print(error.localizedDescription)
                 }
         }
-                    
-    
+
         .actionSheet(isPresented: $showUploadSheet) {
             ActionSheet(
                 title: Text("Dokument in die App hochladen"),
@@ -76,13 +75,10 @@ struct OwnDocumentView: View {
                     .default(Text("Datei auswählen"), action: {
                         presentImporter.toggle()
                     }),
-                    .default(Text("Foto aufnehmen")),
+                    //.default(Text("Foto aufnehmen")),
                     .cancel()
                 ])
         }
-        
-        
-        
     }
 }
 

@@ -33,9 +33,8 @@ class DataController: ObservableObject {
         }
     }
     
-    ///Implementierung mit Filtern
+    ///gibt ein anhand des Profils gefiltertes Array mit RequirementItems zurück
     func fetchRequirements(forProfile profile: Profile) {
-        
         //Filter entsprechen des Profils einstellen
         let request = NSFetchRequest<RequirementEntity>(entityName: "RequirementEntity")
         var compoundPredicate: NSPredicate {
@@ -53,7 +52,6 @@ class DataController: ObservableObject {
             if (sizeFilter != nil) {
                 predicates.append(sizeFilter!)
             }
-            
             //Filter nach Devices
             var deviceFilter: [NSPredicate] = []
             if (profile.hasBigMedTech == false) {

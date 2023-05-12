@@ -50,7 +50,6 @@ struct PDFUIView: View {
                     Button("Dokument löschen", role: .destructive) {
                         do {
                             try FileManager.default.removeItem(at: pdfURL!)
-                            documentViewModel.updateStatus()
                         } catch {
                             print("Löschen des Dokuments ist fehlgeschlagen")
                         }

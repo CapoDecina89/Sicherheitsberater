@@ -16,7 +16,9 @@ struct Profile: Codable {
 }
 
 enum SizeCategory: String, Codable {
-case small, medium, large
+case small
+case medium
+case large
 }
 
 struct EmergencyContact: Codable {

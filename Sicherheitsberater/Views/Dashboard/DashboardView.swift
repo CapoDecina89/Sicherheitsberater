@@ -41,27 +41,6 @@ struct DashboardView: View {
                     searchedItemList
                 }
             }
-            
-            //Variante Section
-            /*List {
-                if searchText.isEmpty {
-                    ForEach(dataController.objectTypes, id: \.self) { objectType in
-                        Section(objectType) {
-                            ForEach(dataController.savedEntities) { requirement in
-                                if (requirement.objectType == objectType) {
-                                    NavigationLink {
-                                        DetailView(requirement: requirement)
-                                    }label: {
-                                        ModuleItemView(requirement: requirement)
-                                    }
-                                }else {}
-                            }
-                        }
-                    }
-                } else {
-                    searchedItemList
-                }
-            }*/
             .searchable(text: $searchText, prompt: "Suche Anforderung")
             .navigationTitle("Übersicht")
         }

@@ -20,7 +20,7 @@ struct EmergencyView: View {
                     Label("Welches System ist betroffen?", systemImage: "pc")
                     Label("Was haben Sie beobachtet?", systemImage: "binoculars")
                     Label("Wann ist das Ereignis eingetreten?",systemImage: "clock")
-                    Label("Wo befndet sich das IT-System?",systemImage: "mappin.and.ellipse")
+                    Label("Wo befindet sich das IT-System?",systemImage: "mappin.and.ellipse")
                 } header: {
                     Text("Informationen sammeln")
                 }

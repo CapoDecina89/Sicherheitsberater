@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		433C279B2A07B0EF00575584 /* DocumentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433C279A2A07B0EF00575584 /* DocumentViewModel.swift */; };
 		433C279D2A07B13700575584 /* DocumentStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433C279C2A07B13700575584 /* DocumentStatus.swift */; };
-		433C27A32A08FF3A00575584 /* netzplanBeispiel.png in Resources */ = {isa = PBXBuildFile; fileRef = 433C27A22A08FF3A00575584 /* netzplanBeispiel.png */; };
 		433C27A52A08FF5A00575584 /* notfallplanBeispiel.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 433C27A42A08FF5A00575584 /* notfallplanBeispiel.pdf */; };
+		433C27AB2A09049A00575584 /* netzplanBeispiel.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 433C27AA2A09049A00575584 /* netzplanBeispiel.pdf */; };
 		4357009B29F82E66008D2D82 /* RequirementItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4357009A29F82E66008D2D82 /* RequirementItem.swift */; };
 		435700A029F82F83008D2D82 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4357009F29F82F83008D2D82 /* ProfileViewModel.swift */; };
 		435700A229F8301B008D2D82 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435700A129F8301B008D2D82 /* Profile.swift */; };
@@ -37,8 +37,8 @@
 /* Begin PBXFileReference section */
 		433C279A2A07B0EF00575584 /* DocumentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentViewModel.swift; sourceTree = "<group>"; };
 		433C279C2A07B13700575584 /* DocumentStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentStatus.swift; sourceTree = "<group>"; };
-		433C27A22A08FF3A00575584 /* netzplanBeispiel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = netzplanBeispiel.png; sourceTree = "<group>"; };
 		433C27A42A08FF5A00575584 /* notfallplanBeispiel.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = notfallplanBeispiel.pdf; sourceTree = "<group>"; };
+		433C27AA2A09049A00575584 /* netzplanBeispiel.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = netzplanBeispiel.pdf; sourceTree = "<group>"; };
 		4357009A29F82E66008D2D82 /* RequirementItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequirementItem.swift; sourceTree = "<group>"; };
 		4357009F29F82F83008D2D82 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 		435700A129F8301B008D2D82 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
@@ -151,8 +151,8 @@
 				4357009729F67D50008D2D82 /* Model */,
 				43D2A5B129F45D2A00329073 /* Helper.swift */,
 				43D2A5AF29F3EAEF00329073 /* requirements.json */,
+				433C27AA2A09049A00575584 /* netzplanBeispiel.pdf */,
 				433C27A42A08FF5A00575584 /* notfallplanBeispiel.pdf */,
-				433C27A22A08FF3A00575584 /* netzplanBeispiel.png */,
 				4364FA2D2A013257007B34A1 /* rollenmatrixBeispiel.pdf */,
 				4357009E29F82F1C008D2D82 /* ViewModels */,
 				437A48ED29E596DF004D7ED4 /* Views */,
@@ -229,11 +229,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4397E64229E19EB1008AADA3 /* Preview Assets.xcassets in Resources */,
-				433C27A32A08FF3A00575584 /* netzplanBeispiel.png in Resources */,
 				4364FA2E2A013257007B34A1 /* rollenmatrixBeispiel.pdf in Resources */,
 				4397E63F29E19EB1008AADA3 /* Assets.xcassets in Resources */,
 				43D2A5B029F3EAEF00329073 /* requirements.json in Resources */,
 				433C27A52A08FF5A00575584 /* notfallplanBeispiel.pdf in Resources */,
+				433C27AB2A09049A00575584 /* netzplanBeispiel.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

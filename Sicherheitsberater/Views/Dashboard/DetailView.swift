@@ -14,17 +14,9 @@ struct DetailView: View {
     
     var body: some View {
         Form {
-            /*LabeledContent("ID:", value: requirement.id ?? "")
-            LabeledContent("Anforderung:", value: requirement.name ?? "")
-            LabeledContent("Erklärung:") {
-                Text(requirement.explanation ?? "")
-            }
-            LabeledContent("Erklärung:", value: requirement.explanation ?? "" )
-            LabeledContent("Änderungsdatum:", value: requirement.changingDate?.formatted(date: .abbreviated, time: .shortened) ?? "")*/
-            
-            LabeledContent("ID:", value: requirement.id ?? "")
-            LabeledContent("Anforderung:", value: requirement.name ?? "")
-            LabeledContent("Status geändert:", value: requirement.changingDate?.formatted(date: .numeric, time: .shortened) ?? "")
+            LabeledContent("ID", value: requirement.id ?? "")
+            LabeledContent("Anforderung", value: requirement.name ?? "")
+            LabeledContent("Status geändert", value: requirement.changingDate?.formatted(date: .numeric, time: .shortened) ?? "")
             Section {
                 Text(requirement.explanation ?? "")
             } header: {
