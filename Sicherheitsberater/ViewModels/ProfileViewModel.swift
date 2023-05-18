@@ -19,7 +19,7 @@ class ProfileViewModel: ObservableObject {
     init() {
         getProfile()
     }
-        
+    ///gets the Profile by fetching json from UserDefaults and decoding
     func getProfile() {
         guard
             let data = UserDefaults.standard.data(forKey: profileKey),
@@ -28,11 +28,10 @@ class ProfileViewModel: ObservableObject {
         
         self.businessProfile = savedProfile
     }
-    
+    ///saves the profile as json to UserDefaults
     func saveProfile() {
         if let encodedData = try? JSONEncoder().encode(businessProfile) {
             UserDefaults.standard.set(encodedData, forKey: profileKey)
         }
-        
     }
 }

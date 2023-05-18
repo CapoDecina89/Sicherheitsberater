@@ -24,10 +24,5 @@ struct SicherheitsberaterApp: App {
                 .environmentObject(dataController)
                 .environment(\.managedObjectContext, dataController.container.viewContext)
         }
-        //wird beim aktivieren der App ausgeführt
-        .onChange(of: scenePhase) { phase in
-            if phase == .active {
-            }
-        }
     }
 }
